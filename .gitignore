@@ -1,0 +1,8 @@
+# Ignore the update bat 
+Update.bat
+
+# KiCad backup files
+*-backups/
+*.bak
+*.tmp
+*.zip

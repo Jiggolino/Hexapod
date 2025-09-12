@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-07-21" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="de_CH">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="5c58861dbb9e427b890f654167e25d95" name="Project Description" meeting="false" start="2025-08-13" duration="1" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="a37e511d969c4c09a50c2119f879451c" name="Time plan" meeting="false" start="2025-08-14" duration="1" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="6e3593d4e41449a68d822bc9d96075f1" name="Organizational" meeting="false" start="2025-08-15" duration="1" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="580ca4e736944ad88c34c3e912632b7f" name="Searching for servos" meeting="false" start="2025-08-18" duration="1" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="0537a9d68e224acb93a9f3608c294764" name="3D design a leg" meeting="false" start="2025-08-19" duration="1" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="13fb90852f7140c3aa4a35a5aef674e0" name="3D Print the leg" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="3df8c34d70ee4b2cac2d299aa45163bb" name="Buy 3 Servos" meeting="false" start="2025-08-18" duration="1" complete="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="b6703b4d27e6469b8d2f2e8a418722df" name="Assambel the leg and test it" meeting="false" start="2025-08-21" duration="1" complete="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="063240ec6b114c76bfabacdb17df2d84" name="upgrade the leg if nescessary" meeting="false" start="2025-08-22" duration="1" complete="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="f39b7f5b7da74d749593fc6978566a8a" name="3D Print it" meeting="false" start="2025-08-25" duration="1" complete="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="2c694123c4c7470abc766993449b5540" name="Assamble the leg and test it" meeting="false" start="2025-08-26" duration="1" complete="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="c64370494a2144798b181f904f11eafb" name="Test leg with battery" meeting="false" start="2025-08-27" duration="1" complete="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="4205fc76634d4dddb969a573bdad1d88" name="3D print the body" meeting="false" start="2025-08-28" duration="1" complete="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="c846b2c4e36e47dea3b834cc63a3cb25" name="Test the body" meeting="false" start="2025-08-29" duration="1" complete="0" expand="true">
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="17" uid="ce1ce579a88f4de58b090e2361b78674" name="upgrade the body if nescessary" meeting="false" start="2025-09-01" duration="1" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" uid="abf5f6250b90485fad30e72e3bafdd41" name="3D print the body" meeting="false" start="2025-09-02" duration="1" complete="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" uid="f830b5ce19214a69beea0bcce66d7811" name="Print the other 5 legs" meeting="false" start="2025-09-03" duration="1" complete="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" uid="724b74cad85141d6b6a864d3b24b411e" name="Assamble the hexapod" meeting="false" start="2025-09-04" duration="1" complete="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" uid="d948fa9d10c94e888b92ea77ffa44c01" name="Test the hexapod" meeting="false" start="2025-09-05" duration="1" complete="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" uid="25d93532e2a740fd8ec82d4a8f9618c3" name="fix the faulty parts" meeting="false" start="2025-09-08" duration="1" complete="0" expand="true">
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="36" uid="325e85ae6c314b5f84a0a3a7e22befea" name="Test the hexapod" meeting="false" start="2025-09-09" duration="1" complete="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" uid="5596aa526d2e4b2996b6758da8d576f3" name="Search for all the other parts" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="35" uid="cd971e970c1b4d7685af956e22161511" name="Buy a battery" meeting="false" start="2025-08-21" duration="1" complete="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" uid="e677ef594078488d9ac3b869dce99548" name="Design the body" meeting="false" start="2025-08-21" duration="1" complete="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" uid="4e524f7629b14d6f9c7b210a3cb9a6e6" name="Design the PCB" meeting="false" start="2025-08-22" duration="1" complete="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" uid="06393381f79c4ef5ba65266fa13417de" name="Buy the PCB and its parts" meeting="false" start="2025-08-25" duration="1" complete="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" uid="c49bbab4ce4d40a0a69985c480334b6b" name="manufacture the PCB" meeting="false" start="2025-08-26" duration="1" complete="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" uid="1357af7be56d4ff0bbd7647fe3e908cf" name="Test the PCB with messuring devices" meeting="false" start="2025-08-27" duration="1" complete="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="30" uid="84f2453d3f0548c7aee603212a5203b7" name="if nescessary fix PCB design" meeting="false" start="2025-08-28" duration="1" complete="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" uid="b5ae60c3d7b845669bb32aea913ccb4d" name="Manufacture new PCB" meeting="false" start="2025-08-29" duration="1" complete="0" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="32" uid="2cb17f11d9854924985033e2eb4a65c5" name="Test new PCB" meeting="false" start="2025-09-01" duration="1" complete="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="33" uid="9b4147516ff046f1b3f833370fdd0dee" name="Done!" meeting="false" start="2025-09-10" duration="1" complete="0" expand="true"/>
+        <task id="34" uid="a79d1ed5c2cb4175a9a5f6cf3e879bd3" name="Doku" meeting="false" start="2025-07-21" duration="1" complete="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
