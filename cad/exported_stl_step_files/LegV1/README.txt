@@ -1,0 +1,1 @@
+If you need to export these again, use "Save As Mesh" on the Lower Leg and save it as an stl Binary and not as an step.
