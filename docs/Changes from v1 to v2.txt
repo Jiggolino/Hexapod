@@ -1,0 +1,10 @@
+Changes from v1 to v2
+
+- added m2 threadings to the servo horn connector
+- changed the distance from the servo horn connector to +2.5mm from current location
+- changed the size of the middle part of the middle leg 
+- removed the inner wall of the servo cable tray
+- removed wrong champfer
+- changed the distance between the servo holes 
+- added the servo conector holes
+- changed the connector so u can insert the servo easyer
