@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "GMR50HJAAFD5L00"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "GMR50HJAAFD5L00")
+        (spec "default")
+    )
+)
