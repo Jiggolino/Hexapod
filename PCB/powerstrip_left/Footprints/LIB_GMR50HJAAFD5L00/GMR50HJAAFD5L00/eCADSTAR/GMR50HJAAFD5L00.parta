@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_11607097"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-09-16:27:15)
+    (utime 2025-08-19-04:44:27)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "GMR50HJAAFD5L00")
+)
+
+
+(pinAssign "ECS_11607097"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-09-16:27:15)
+    (utime 2025-08-19-04:44:27)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_11607097")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "GMR50HJAAFD5L00")
+)
+
+
+(part "GMR50HJAAFD5L00"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-02-09-16:27:15)
+    (utime 2025-08-19-04:44:27)
+    (packageRef "GMR50HJAAFD5L00")
+    (pinAssignRef "ECS_11607097")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)")
+    (property "Mouser_Part_Number" "755-GMR50HJAAFD5L00")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D")
+    (property "Manufacturer_Name" "ROHM Semiconductor")
+    (property "Manufacturer_Part_Number" "GMR50HJAAFD5L00")
+    (property "Datasheet_Link" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

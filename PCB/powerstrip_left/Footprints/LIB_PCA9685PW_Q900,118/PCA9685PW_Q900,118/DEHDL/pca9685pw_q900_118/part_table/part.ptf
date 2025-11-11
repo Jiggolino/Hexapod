@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PCA9685PW_Q900_118'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "PCA9685PW/Q900,118" (!) = "", "SOP65P640X110-28N", "Small Outline Packages", "771-PCA9685PWQ900118", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9685PW-Q900118?qs=MWRe%252BjyhxRtZfKNN86P1Tg%3D%3D", "NXP - PCA9685PW/Q900,118 - LED DRIVER, AEC-Q100, 16-CH, TSSOP-20", "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf", "1.1 mm"
+END_PART
+
+END.

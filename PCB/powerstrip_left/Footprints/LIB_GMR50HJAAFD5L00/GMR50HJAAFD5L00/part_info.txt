@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=GMR50HJAAFD5L00
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2021-02-09 16:27:15
+Downloaded=2025-10-28 12:53:14
+3D=Y
