@@ -1604,52 +1604,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Strip_Library:GMR50HJAAFD5L00"
-			(pin_names
+		(symbol "Device:R"
+			(pin_numbers
 				(hide yes)
+			)
+			(pin_names
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 13.97 6.35 0)
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "GMR50HJAAFD5L00"
-				(at 13.97 3.81 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "GMR50HJAAFD5L00"
-				(at 13.97 -96.19 0)
+			(property "Footprint" ""
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1658,72 +1648,51 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.55"
-				(at 13.97 -396.19 0)
+			(property "Description" "Resistor"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-				(at 13.97 -496.19 0)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-				(at 13.97 -596.19 0)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "ROHM Semiconductor"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "GMR50HJAAFD5L00_1_1"
+			(symbol "R_0_1"
 				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+			)
+			(symbol "R_1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1739,9 +1708,144 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Voltage_Regulator_AKL:LT1117CST-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT1117CST-3.3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOT-223 3.3V, 800mA, low dropout voltage regulator, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "3.3V 800mA ldo low dropout voltage regulator vreg pmic power supply 3-terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LT1117CST-3.3_0_0"
+				(rectangle
+					(start -5.08 1.27)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "GND"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LT1117CST-3.3_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3457,6 +3561,18 @@
 		(uuid "10b21c58-1d11-420c-b39d-1530d013ffc2")
 	)
 	(junction
+		(at 80.01 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "152c91e7-a40b-44d9-a8cb-5530cf1dc8ad")
+	)
+	(junction
+		(at 180.34 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15c41378-683f-4385-8819-44b482001725")
+	)
+	(junction
 		(at 58.42 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3475,10 +3591,34 @@
 		(uuid "23fbe3b9-0cf4-4d13-8abf-7702a5c76d7d")
 	)
 	(junction
+		(at 80.01 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "249e0e3a-d9a6-4f45-b8b6-8e3a5d0c5fb6")
+	)
+	(junction
+		(at 160.02 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "264b6803-c1d7-4146-9954-154cc8e99769")
+	)
+	(junction
+		(at 72.39 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27a6f88f-ef0c-453d-9dc2-7daa9fc7b3d0")
+	)
+	(junction
 		(at 113.03 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36e3f0ee-e289-42ff-8bd5-81b5adcce082")
+	)
+	(junction
+		(at 80.01 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4780782e-d941-4b15-acc7-c0ee1b30724d")
 	)
 	(junction
 		(at 148.59 111.76)
@@ -3493,10 +3633,40 @@
 		(uuid "5d005848-2e7b-4824-8470-25ed434df74d")
 	)
 	(junction
+		(at 72.39 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "604ef919-68f5-42b5-aa34-854cf869cb97")
+	)
+	(junction
+		(at 80.01 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61f701cf-c9d3-4226-84b6-ce61aa83fa33")
+	)
+	(junction
+		(at 80.01 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "642c0c6c-1dc2-4450-bcb6-6beaae613d3f")
+	)
+	(junction
+		(at 262.89 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68709536-0c92-458a-84f6-f08facf525d8")
+	)
+	(junction
 		(at 184.15 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68fb63d1-3a11-46fc-967b-78ccf7b6944b")
+	)
+	(junction
+		(at 223.52 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72abbf72-543c-4190-bfda-e5b0ffb47485")
 	)
 	(junction
 		(at 95.25 104.14)
@@ -3509,6 +3679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a89e11c-ca06-49bb-85c3-0f69a7213869")
+	)
+	(junction
+		(at 72.39 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81817610-3c57-47f3-a5a8-2ebac3098448")
 	)
 	(junction
 		(at 95.25 111.76)
@@ -3541,16 +3717,76 @@
 		(uuid "acaa32a1-4baf-4ca4-a41d-def7ebd85193")
 	)
 	(junction
+		(at 80.01 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0259e67-640d-4836-b7fe-6d9ce0068e24")
+	)
+	(junction
 		(at 77.47 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b34011da-4fd3-4e8c-97ad-dc901f2e87a9")
 	)
 	(junction
+		(at 72.39 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5244c4e-6452-49f3-9c38-255fb4ac5e65")
+	)
+	(junction
+		(at 80.01 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be36ddf7-916a-40b5-b5e3-d8ba6ea46a3f")
+	)
+	(junction
+		(at 72.39 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf24aefe-e6b4-45e0-91ca-93559577ff8c")
+	)
+	(junction
+		(at 72.39 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfb094e4-575f-4da3-9664-46068fd1f69b")
+	)
+	(junction
 		(at 166.37 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e26b39f0-a27b-42a4-8973-210c6f429257")
+	)
+	(junction
+		(at 72.39 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebb1d45e-d8f8-4815-be72-157aaf94492d")
+	)
+	(junction
+		(at 72.39 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1298626-b6b3-4ca0-acd9-e39aa0f46229")
+	)
+	(junction
+		(at 205.74 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f55468d0-3196-44e1-b4e5-ac3b48448b5e")
+	)
+	(junction
+		(at 80.01 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5b4244e-bb1c-422c-9a02-582fe412e10d")
+	)
+	(junction
+		(at 193.04 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9fb14e9-b753-45ae-bcc9-0a4cd10f9914")
 	)
 	(no_connect
 		(at 149.86 58.42)
@@ -3586,6 +3822,56 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 77.47) (xy 72.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05913789-a922-4cea-87fd-76ace16e05e9")
+	)
+	(wire
+		(pts
+			(xy 72.39 77.47) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063740ff-f459-4b40-b5e3-eae1d0ec79e8")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074bf22b-f4fa-435b-9221-6c8dd3e19f63")
+	)
+	(wire
+		(pts
+			(xy 69.85 72.39) (xy 72.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da5202c-8df6-4837-857d-02acc725e83f")
+	)
+	(wire
+		(pts
+			(xy 80.01 59.69) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1366f294-87fd-4b0d-a71c-7ba10177880e")
+	)
+	(wire
+		(pts
 			(xy 113.03 111.76) (xy 130.81 111.76)
 		)
 		(stroke
@@ -3593,6 +3879,46 @@
 			(type default)
 		)
 		(uuid "14894561-5e82-4925-bdd6-0dc3e3c6e522")
+	)
+	(wire
+		(pts
+			(xy 193.04 90.17) (xy 193.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182b7cd1-b7c8-42a2-ae87-fd0f54d4f790")
+	)
+	(wire
+		(pts
+			(xy 80.01 77.47) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24566765-7a27-4af4-8e84-e785433cb16d")
+	)
+	(wire
+		(pts
+			(xy 69.85 54.61) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254fe35d-5d3b-4ab0-92d2-959a86a49feb")
+	)
+	(wire
+		(pts
+			(xy 215.9 19.05) (xy 223.52 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a98b5d1-6f89-43b2-94d4-5905086792d7")
 	)
 	(wire
 		(pts
@@ -3606,6 +3932,46 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 86.36) (xy 205.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c659105-bef4-49f3-8190-a5c450ece915")
+	)
+	(wire
+		(pts
+			(xy 80.01 33.02) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6809bd-3eb6-401e-a718-c7569554814c")
+	)
+	(wire
+		(pts
+			(xy 82.55 81.28) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d418964-dab7-430f-bca6-4eeb0ed7f973")
+	)
+	(wire
+		(pts
+			(xy 80.01 24.13) (xy 82.55 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecc3852-58a1-4bf6-9239-e137278c6347")
+	)
+	(wire
+		(pts
 			(xy 95.25 104.14) (xy 113.03 104.14)
 		)
 		(stroke
@@ -3613,6 +3979,26 @@
 			(type default)
 		)
 		(uuid "300418d8-7d65-4d19-b73f-bdcd4e3163b6")
+	)
+	(wire
+		(pts
+			(xy 215.9 29.21) (xy 212.09 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353ad938-f2c9-40c2-aa05-58d270ffe1ce")
+	)
+	(wire
+		(pts
+			(xy 215.9 19.05) (xy 215.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fb935c-3551-440b-a152-d11c1ea1e627")
 	)
 	(wire
 		(pts
@@ -3626,6 +4012,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 92.71) (xy 193.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c04edb-96bf-48de-a88b-6e685a2bce6a")
+	)
+	(wire
+		(pts
 			(xy 184.15 104.14) (xy 201.93 104.14)
 		)
 		(stroke
@@ -3633,6 +4029,116 @@
 			(type default)
 		)
 		(uuid "39cfcf59-82da-4691-ab55-a8cabfce2661")
+	)
+	(wire
+		(pts
+			(xy 82.55 27.94) (xy 80.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9bf174-52a2-4ed7-b1d0-f92de08d0c47")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 81.28 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3caf51d9-36d1-4be1-a407-81f99c5bbb23")
+	)
+	(wire
+		(pts
+			(xy 80.01 72.39) (xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e295854-4792-4c3b-b344-db0b6a505e92")
+	)
+	(wire
+		(pts
+			(xy 69.85 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433bc56b-13b3-4a33-b951-1bf788ca99f6")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 72.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43884834-3d72-44ed-a91f-6916e3f5bda4")
+	)
+	(wire
+		(pts
+			(xy 180.34 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444697ba-770d-4ad2-9424-f69bc94f8bd8")
+	)
+	(wire
+		(pts
+			(xy 80.01 68.58) (xy 80.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4509fdfe-cdc1-48b8-967f-3df84c19009b")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a817980-28ab-45e3-8d78-88baf251fe95")
+	)
+	(wire
+		(pts
+			(xy 69.85 90.17) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51594305-cf9d-4626-9d54-0c48fc7a6957")
+	)
+	(wire
+		(pts
+			(xy 180.34 90.17) (xy 193.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51640363-2438-4e51-a838-82192c2f6696")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 80.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b26fd6a-1705-4a02-9751-a084af2fa0be")
 	)
 	(wire
 		(pts
@@ -3656,6 +4162,116 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 19.05) (xy 233.68 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4aae28-0623-4f92-86e5-88d3bf8520ec")
+	)
+	(wire
+		(pts
+			(xy 69.85 36.83) (xy 72.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7d8610-3d55-4efc-a2a0-3ebde07710fd")
+	)
+	(wire
+		(pts
+			(xy 72.39 41.91) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600f43f9-2edc-4126-b07c-bd67ebb89525")
+	)
+	(wire
+		(pts
+			(xy 80.01 68.58) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6296cbd8-d763-4af0-81c6-72c0ac3d4512")
+	)
+	(wire
+		(pts
+			(xy 69.85 81.28) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7105daf0-6350-4299-9e53-444ae81430da")
+	)
+	(wire
+		(pts
+			(xy 80.01 77.47) (xy 82.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745f49e6-889d-40fc-9822-f8d3fb4dcd28")
+	)
+	(wire
+		(pts
+			(xy 251.46 19.05) (xy 251.46 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fd8d7e-e3b2-459f-8b02-52841273b657")
+	)
+	(wire
+		(pts
+			(xy 72.39 68.58) (xy 72.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdbd451-8b3f-4610-9ffe-4000132d5449")
+	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d82830c-3cbd-4d24-843e-bf5b701af47a")
+	)
+	(wire
+		(pts
+			(xy 205.74 76.2) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd7420b-71e1-46e7-9e0e-42050b25d33b")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a3a87d-8842-43ed-8399-2fcd251b9006")
+	)
+	(wire
+		(pts
 			(xy 130.81 104.14) (xy 148.59 104.14)
 		)
 		(stroke
@@ -3663,6 +4279,26 @@
 			(type default)
 		)
 		(uuid "8214bb9f-0f1d-4f6b-98c9-f8fff37989af")
+	)
+	(wire
+		(pts
+			(xy 205.74 90.17) (xy 193.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8372cbb0-4afd-4fe6-b818-589d671bba7a")
+	)
+	(wire
+		(pts
+			(xy 80.01 86.36) (xy 82.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dd92dd-7d25-4ee3-9c75-c3b0749be614")
 	)
 	(wire
 		(pts
@@ -3676,6 +4312,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 63.5) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a651328-f59c-4111-a15c-92b4795b3765")
+	)
+	(wire
+		(pts
+			(xy 160.02 40.64) (xy 149.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1547e0-5f96-430b-9c2a-236cae6608da")
+	)
+	(wire
+		(pts
 			(xy 212.09 34.29) (xy 233.68 34.29)
 		)
 		(stroke
@@ -3683,6 +4339,36 @@
 			(type default)
 		)
 		(uuid "8dd14ea9-13f4-42c8-9cb7-82d9ec3e7694")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 80.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6cca70-28d6-422b-aa0e-76b3be0a3bad")
+	)
+	(wire
+		(pts
+			(xy 160.02 40.64) (xy 166.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4d5c46-50e5-4512-8c25-c7efd9924ef7")
+	)
+	(wire
+		(pts
+			(xy 72.39 24.13) (xy 72.39 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fca540-bc0e-4aac-90a1-9d63b8fe375d")
 	)
 	(wire
 		(pts
@@ -3706,6 +4392,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 76.2) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e603c5-4da9-48c5-9236-e9a150f2f9d3")
+	)
+	(wire
+		(pts
+			(xy 72.39 86.36) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1380e1-6c1e-4365-8b16-c745be7633cf")
+	)
+	(wire
+		(pts
 			(xy 148.59 104.14) (xy 166.37 104.14)
 		)
 		(stroke
@@ -3713,6 +4419,16 @@
 			(type default)
 		)
 		(uuid "9ec9c10b-5540-4ac8-b440-141e62e16cba")
+	)
+	(wire
+		(pts
+			(xy 69.85 33.02) (xy 72.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee9dfb6-0bfd-4862-a1a2-f3206ae708f1")
 	)
 	(wire
 		(pts
@@ -3726,6 +4442,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 45.72) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a286243f-a49b-4d8c-9b74-065003a1997e")
+	)
+	(wire
+		(pts
+			(xy 82.55 90.17) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc1e2b9-1643-473d-863a-982fd1699e4a")
+	)
+	(wire
+		(pts
 			(xy 58.42 101.6) (xy 58.42 104.14)
 		)
 		(stroke
@@ -3733,6 +4469,26 @@
 			(type default)
 		)
 		(uuid "b4f69af8-b7a6-4f41-a80f-c731cc78d557")
+	)
+	(wire
+		(pts
+			(xy 267.97 19.05) (xy 262.89 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5aff5ed-9629-4549-acf1-7453e59e129f")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 205.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8507f59-89f0-4fff-b56c-5f6fa09f5733")
 	)
 	(wire
 		(pts
@@ -3766,6 +4522,36 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 27.94) (xy 80.01 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c492d7-43fd-4640-8384-c92cf374c945")
+	)
+	(wire
+		(pts
+			(xy 80.01 36.83) (xy 82.55 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf8c621-bafe-4167-924d-71026b97081d")
+	)
+	(wire
+		(pts
+			(xy 69.85 59.69) (xy 72.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9612ed-5a89-40a4-87b7-65d58eba0012")
+	)
+	(wire
+		(pts
 			(xy 166.37 111.76) (xy 184.15 111.76)
 		)
 		(stroke
@@ -3776,6 +4562,96 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d5f59f-8599-4bfd-94d4-5dc5f0aac8fd")
+	)
+	(wire
+		(pts
+			(xy 251.46 19.05) (xy 262.89 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fa1dc2-9ae7-40a0-ac08-f3329e2df4e8")
+	)
+	(wire
+		(pts
+			(xy 205.74 76.2) (xy 205.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d584b687-0e66-47c3-89fd-53cdf5dc9640")
+	)
+	(wire
+		(pts
+			(xy 69.85 27.94) (xy 72.39 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7804edc-48a2-4cce-9d5b-3000a7b9fe81")
+	)
+	(wire
+		(pts
+			(xy 69.85 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bd8255-2bb9-4b04-bbdd-c98fbc3ff9cd")
+	)
+	(wire
+		(pts
+			(xy 82.55 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94e0243-2881-4828-af66-2001b3ad29eb")
+	)
+	(wire
+		(pts
+			(xy 72.39 50.8) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd5e838-a9a1-432a-bb3b-846f503c6c9d")
+	)
+	(wire
+		(pts
+			(xy 80.01 33.02) (xy 80.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ca4722-7c85-465a-860d-c4ff01588544")
+	)
+	(wire
+		(pts
+			(xy 80.01 59.69) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e421078e-608c-488d-af40-1eacf846d7b7")
+	)
+	(wire
+		(pts
 			(xy 233.68 34.29) (xy 246.38 34.29)
 		)
 		(stroke
@@ -3783,6 +4659,56 @@
 			(type default)
 		)
 		(uuid "e8f59ca9-c791-40b5-9c3b-96c40dbaeece")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec28315f-367c-483e-8aa1-9a6e481c89f1")
+	)
+	(wire
+		(pts
+			(xy 82.55 54.61) (xy 80.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2feb4a0-fa52-47e1-b3a0-28aee5b17411")
+	)
+	(wire
+		(pts
+			(xy 80.01 86.36) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f364fb7c-ff2e-4dd8-8f70-9878d0368368")
+	)
+	(wire
+		(pts
+			(xy 69.85 24.13) (xy 72.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f834cd0b-f1e1-4a6f-9a47-a45953b9b675")
+	)
+	(wire
+		(pts
+			(xy 69.85 68.58) (xy 72.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe435d52-86ef-4abd-80a6-5e06e2c2e089")
 	)
 	(global_label "PWM_SERVO1"
 		(shape input)
@@ -3874,7 +4800,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 240.03 95.25 180)
+		(at 247.65 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3884,7 +4810,7 @@
 		)
 		(uuid "135efd95-6537-4c9f-ba7f-07c7ad2ff6c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.1743 95.25 0)
+			(at 240.7943 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +4822,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 212.09 29.21 0)
+		(at 233.68 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3906,7 +4832,29 @@
 		)
 		(uuid "1b0e5ca7-0f8c-4913-886e-c2dfe0a0c02a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.1876 29.21 0)
+			(at 240.7776 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c0e917c-f552-4810-9a5e-b96dddf9a765")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,6 +4930,28 @@
 			)
 		)
 	)
+	(global_label "SERVO9"
+		(shape input)
+		(at 69.85 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fcefa9c-54ed-47ea-a35e-6662927341ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC INPUT"
 		(shape input)
 		(at 261.62 36.83 0)
@@ -4006,7 +4976,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 33.02 0)
+		(at 82.55 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4016,7 +4986,7 @@
 		)
 		(uuid "241b65dc-a2a5-4d6d-ae15-eda87f82a72b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 33.02 0)
+			(at 89.4057 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4998,7 @@
 	)
 	(global_label "GND_SERVO1"
 		(shape input)
-		(at 71.12 24.13 180)
+		(at 69.85 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4038,7 +5008,29 @@
 		)
 		(uuid "252ef468-cb46-4cbf-8081-250b35147971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0396 24.13 0)
+			(at 54.7696 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO1"
+		(shape input)
+		(at 69.85 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2809a3e6-ee6e-44e7-b86a-14fb23b5c62d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +5106,7 @@
 			)
 		)
 	)
-	(global_label "GND_SERVO8"
+	(global_label "SERVO8"
 		(shape input)
 		(at 212.09 54.61 0)
 		(fields_autoplaced yes)
@@ -4126,7 +5118,7 @@
 		)
 		(uuid "32aa2bbc-f982-470d-89db-cf0959ebb542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1704 54.61 0)
+			(at 222.3323 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +5196,7 @@
 	)
 	(global_label "GND_SERVO6"
 		(shape input)
-		(at 71.12 59.69 180)
+		(at 69.85 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4214,7 +5206,7 @@
 		)
 		(uuid "39134985-235d-4145-baa5-0cc0d46fa634")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0396 59.69 0)
+			(at 54.7696 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +5218,7 @@
 	)
 	(global_label "GND_SERVO2"
 		(shape input)
-		(at 71.12 33.02 180)
+		(at 69.85 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4236,7 +5228,7 @@
 		)
 		(uuid "3d9d78f1-7012-432b-ad46-ef63049939d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0396 33.02 0)
+			(at 54.7696 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +5240,7 @@
 	)
 	(global_label "GND_SERVO8"
 		(shape input)
-		(at 71.12 77.47 180)
+		(at 69.85 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4258,7 +5250,7 @@
 		)
 		(uuid "3e8fbef9-9836-4966-8075-3256b6e38f74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0396 77.47 0)
+			(at 54.7696 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,6 +5282,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40a50a25-3f5b-4d41-88ae-7ab8b2bd09cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 119.38 22.86 180)
@@ -4303,6 +5317,28 @@
 		(uuid "4204eb54-0878-41dc-b441-b68fd6191696")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.7662 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO8"
+		(shape input)
+		(at 69.85 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "470d7d97-9e26-4f9d-8b4d-ad28f00ec8ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,6 +5405,28 @@
 		(uuid "47fb0b17-a92a-4812-aed5-a2f4a3d54280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.4804 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "482cdb8c-7ebd-485c-9a50-ee0bc1c0beb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +5526,7 @@
 	)
 	(global_label "GND_SERVO9"
 		(shape input)
-		(at 71.12 86.36 180)
+		(at 69.85 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4478,7 +5536,7 @@
 		)
 		(uuid "50329686-aab2-4095-8499-987782d6291d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0396 86.36 0)
+			(at 54.7696 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +5548,7 @@
 	)
 	(global_label "GND_SERVO3"
 		(shape input)
-		(at 71.12 41.91 180)
+		(at 69.85 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4500,7 +5558,7 @@
 		)
 		(uuid "50f23e0e-e274-4d9f-b33b-778b3a8f5a36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0396 41.91 0)
+			(at 54.7696 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +5614,51 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 86.36 0)
+		(at 81.28 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ad7a87b-5331-43c7-b476-53efb3b27236")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.1357 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 193.04 92.71 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b1c9f95-bc40-4d78-960f-97f4679a9c69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 99.5657 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4566,12 +5668,34 @@
 		)
 		(uuid "5ca180c9-4041-44b8-aee1-31e003e8ad37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 86.36 0)
+			(at 89.4057 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 175.26 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e7b0396-c6b9-4cc1-ab85-77d02ecee3e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.6462 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4598,9 +5722,75 @@
 			)
 		)
 	)
+	(global_label "SERVO7"
+		(shape input)
+		(at 69.85 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67c77440-c842-43aa-ace7-0d8b5f4184e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68795e7c-612d-4150-8ad9-0dbde7fb07f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO2"
+		(shape input)
+		(at 69.85 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6abedbce-78b4-41b2-93ea-86e54de1a0c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A1"
 		(shape input)
-		(at 240.03 90.17 180)
+		(at 247.65 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4610,7 +5800,7 @@
 		)
 		(uuid "6bc71307-0c88-47eb-9d8f-8e13ecd98ef6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7467 90.17 0)
+			(at 242.3667 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +5878,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 59.69 0)
+		(at 82.55 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4698,7 +5888,7 @@
 		)
 		(uuid "7a1cc532-4f11-4135-8204-912feb90bf55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 59.69 0)
+			(at 89.4057 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +5900,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 251.46 29.21 90)
+		(at 267.97 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4720,7 +5910,7 @@
 		)
 		(uuid "812a8394-1456-4a97-b843-73e40b1b693e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.46 22.1124 90)
+			(at 275.0676 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +5920,7 @@
 			)
 		)
 	)
-	(global_label "GND_SERVO6"
+	(global_label "SERVO6"
 		(shape input)
 		(at 212.09 49.53 0)
 		(fields_autoplaced yes)
@@ -4742,7 +5932,7 @@
 		)
 		(uuid "8134d94e-3cc9-45c7-a428-9bd277c77d12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1704 49.53 0)
+			(at 222.3323 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +6074,7 @@
 			)
 		)
 	)
-	(global_label "GND_SERVO3"
+	(global_label "SERVO3"
 		(shape input)
 		(at 212.09 44.45 0)
 		(fields_autoplaced yes)
@@ -4896,7 +6086,7 @@
 		)
 		(uuid "94cb1782-ba97-47a1-95f4-0fe4d616b877")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1704 44.45 0)
+			(at 222.3323 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +6120,7 @@
 	)
 	(global_label "A0"
 		(shape input)
-		(at 240.03 87.63 180)
+		(at 247.65 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4940,7 +6130,7 @@
 		)
 		(uuid "970eac06-4aa1-4fbe-a0c8-216ce188fb3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7467 87.63 0)
+			(at 242.3667 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +6164,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 68.58 0)
+		(at 82.55 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4984,7 +6174,7 @@
 		)
 		(uuid "9b10a7c4-4c03-43cd-8fd0-ec9e876a33b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 68.58 0)
+			(at 89.4057 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,9 +6184,31 @@
 			)
 		)
 	)
+	(global_label "SERVO3"
+		(shape input)
+		(at 69.85 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e4c51d8-3346-41de-a6c0-b908b7ef6d3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "¬EN"
 		(shape input)
-		(at 240.03 80.01 180)
+		(at 247.65 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5006,7 +6218,7 @@
 		)
 		(uuid "9fa95e43-48e5-4968-82dc-ad8b4842e05b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.9929 80.01 0)
+			(at 240.6129 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +6296,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 77.47 0)
+		(at 82.55 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5094,7 +6306,7 @@
 		)
 		(uuid "a7de4d3c-34c8-4ccf-9b08-115730342663")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 77.47 0)
+			(at 89.4057 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,6 +6382,28 @@
 			)
 		)
 	)
+	(global_label "SERVO4"
+		(shape input)
+		(at 69.85 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aec79a03-f38a-4eb7-8a20-ec20847f190c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM_SERVO9"
 		(shape input)
 		(at 149.86 73.66 0)
@@ -5214,6 +6448,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 223.52 26.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b48e5d4c-8d3a-4e97-870b-537753d54d1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.52 33.5257 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_SERVO3"
 		(shape input)
 		(at 25.4 50.8 0)
@@ -5227,6 +6483,28 @@
 		(uuid "b4fb7b7e-44fc-42cc-9c5d-1f3a9f117751")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.4804 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b68898e1-ce13-473a-9e71-2be3488f6a26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,6 +6582,50 @@
 	)
 	(global_label "GND"
 		(shape input)
+		(at 160.02 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba5a0c55-035a-4735-aee3-406ef4039b91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 55.1157 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbd08852-8587-45e7-b8e2-2c34a6a8386c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
 		(at 119.38 43.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5315,6 +6637,28 @@
 		(uuid "bea23904-c75e-4035-86f4-5a9c2bb78ae6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.5243 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO6"
+		(shape input)
+		(at 69.85 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c02d5d68-4a90-48d6-a9a1-1e343413f8fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,9 +6690,31 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 214.63 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4e343f7-6462-40f3-adc9-9be21fc4a346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.7276 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_SERVO7"
 		(shape input)
-		(at 71.12 68.58 180)
+		(at 69.85 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5358,7 +6724,7 @@
 		)
 		(uuid "c960d703-6cc7-459f-a9a1-f5bab5dfb60f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0396 68.58 0)
+			(at 54.7696 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +6736,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 240.03 85.09 180)
+		(at 247.65 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5380,7 +6746,7 @@
 		)
 		(uuid "c96d654e-5837-4f1f-80b1-71771fbc2b3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.4767 85.09 0)
+			(at 241.0967 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +6844,7 @@
 			)
 		)
 	)
-	(global_label "GND_SERVO4"
+	(global_label "SERVO4"
 		(shape input)
 		(at 212.09 46.99 0)
 		(fields_autoplaced yes)
@@ -5490,7 +6856,7 @@
 		)
 		(uuid "d1786323-3b04-4d3d-910e-813e4c458df1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1704 46.99 0)
+			(at 222.3323 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +6868,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 240.03 105.41 180)
+		(at 247.65 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5512,7 +6878,7 @@
 		)
 		(uuid "d2d69468-6190-499e-b0a1-049b3a92dfb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.1743 105.41 0)
+			(at 240.7943 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +6910,7 @@
 			)
 		)
 	)
-	(global_label "GND_SERVO1"
+	(global_label "SERVO1"
 		(shape input)
 		(at 212.09 39.37 0)
 		(fields_autoplaced yes)
@@ -5556,7 +6922,7 @@
 		)
 		(uuid "d6569733-8a0e-46de-80fa-0a7d5f7a731b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1704 39.37 0)
+			(at 222.3323 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +6932,7 @@
 			)
 		)
 	)
-	(global_label "GND_SERVO7"
+	(global_label "SERVO7"
 		(shape input)
 		(at 212.09 52.07 0)
 		(fields_autoplaced yes)
@@ -5578,7 +6944,7 @@
 		)
 		(uuid "d7dfea79-3da1-4691-9958-7683139dc655")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1704 52.07 0)
+			(at 222.3323 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +6956,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 149.86 40.64 0)
+		(at 166.37 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5600,7 +6966,7 @@
 		)
 		(uuid "d9ad1bf7-ae5f-4994-9480-1c9151a6a3c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.9576 40.64 0)
+			(at 166.37 33.5424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +7000,7 @@
 	)
 	(global_label "GND_SERVO4"
 		(shape input)
-		(at 71.12 50.8 180)
+		(at 69.85 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5644,51 +7010,7 @@
 		)
 		(uuid "de8055aa-822e-47d8-8080-40f40841aee6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0396 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND_SERVO2"
-		(shape input)
-		(at 212.09 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2729ac5-e190-477b-9772-48edcb518f7a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1704 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 240.03 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ea5d0bcf-20d4-4f9b-bf68-9dd087840f1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.5372 82.55 0)
+			(at 54.7696 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +7022,73 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 50.8 0)
+		(at 82.55 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1ec3c6c-a9d1-4c02-8037-6de150e81e25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4057 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO2"
+		(shape input)
+		(at 212.09 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2729ac5-e190-477b-9772-48edcb518f7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.3323 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 247.65 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea5d0bcf-20d4-4f9b-bf68-9dd087840f1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.1572 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 82.55 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5710,12 +7098,34 @@
 		)
 		(uuid "ec6f3c7f-3e5c-4e44-a23e-e70bbe266238")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 50.8 0)
+			(at 89.4057 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 262.89 26.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecde149c-13dd-416a-91d7-d6fd46187d7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 33.5257 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5742,7 +7152,7 @@
 			)
 		)
 	)
-	(global_label "GND_SERVO9"
+	(global_label "SERVO9"
 		(shape input)
 		(at 212.09 57.15 0)
 		(fields_autoplaced yes)
@@ -5754,7 +7164,7 @@
 		)
 		(uuid "ee332f71-10b0-420e-a3c9-f3c0ba183292")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1704 57.15 0)
+			(at 222.3323 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +7198,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 41.91 0)
+		(at 83.82 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5798,7 +7208,7 @@
 		)
 		(uuid "f1b5b221-a758-49c2-bf97-c6446cd1732e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 41.91 0)
+			(at 90.6757 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +7220,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 240.03 102.87 180)
+		(at 247.65 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5820,7 +7230,7 @@
 		)
 		(uuid "f759733f-7f91-4b74-b5b4-6472bd3ff819")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.4162 102.87 0)
+			(at 241.0362 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +7242,7 @@
 	)
 	(global_label "A2"
 		(shape input)
-		(at 240.03 92.71 180)
+		(at 247.65 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5842,7 +7252,7 @@
 		)
 		(uuid "f775405e-315c-4c3e-b1c1-6f574df5b069")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7467 92.71 0)
+			(at 242.3667 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +7286,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 24.13 0)
+		(at 82.55 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5886,7 +7296,7 @@
 		)
 		(uuid "f8db4b83-1df1-42a5-90b1-57f090bc6c4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 24.13 0)
+			(at 89.4057 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +7308,7 @@
 	)
 	(global_label "ADC INPUT"
 		(shape input)
-		(at 240.03 77.47 180)
+		(at 247.65 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5908,7 +7318,7 @@
 		)
 		(uuid "fa399f68-f5fe-4578-93aa-7572e5d8b8cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.9452 77.47 0)
+			(at 234.5652 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,53 +7549,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Strip_Library:GMR50HJAAFD5L00")
-		(at 71.12 59.69 0)
+		(lib_id "Device:C")
+		(at 223.52 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e62042a-c571-4486-9004-e698c9545549")
-		(property "Reference" "R6"
-			(at 80.01 53.34 0)
+		(uuid "0df78295-1bc9-4306-b9d9-44b6712dc1e9")
+		(property "Reference" "C12"
+			(at 227.33 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GMR50HJAAFD5L00"
-			(at 80.01 55.88 0)
+		(property "Value" "100n"
+			(at 227.33 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Power_Strip_Library:GMR50HJAAFD5L00"
-			(at 85.09 155.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-			(at 85.09 255.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
-			(at 71.12 59.69 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 222.5548 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,119 +7585,67 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 85.09 455.88 0)
+		(property "Datasheet" "~"
+			(at 223.52 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-			(at 85.09 555.88 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-			(at 85.09 655.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 85.09 755.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-			(at 85.09 855.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "40061c84-2188-43d0-bbb7-e7d75016c443")
+			(uuid "ab5df3f1-c442-48d1-8755-c08e5a1c13a6")
 		)
 		(pin "2"
-			(uuid "921cc4b5-4115-4dba-854c-4e9f876bb239")
+			(uuid "8d655bd0-e361-4d35-89ee-a36c398c9b07")
 		)
 		(instances
-			(project "powerstrip_right"
+			(project ""
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
-					(reference "R6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Strip_Library:GMR50HJAAFD5L00")
-		(at 71.12 77.47 0)
+		(lib_id "Device:R")
+		(at 76.2 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17e99835-9bf2-4f33-9e6e-a18998eec5e3")
-		(property "Reference" "R8"
-			(at 80.01 71.12 0)
+		(uuid "1943a548-9aa3-4da4-ad0e-5fa35359c2fe")
+		(property "Reference" "shunt_01"
+			(at 76.2 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GMR50HJAAFD5L00"
-			(at 80.01 73.66 0)
+		(property "Value" "R0.005"
+			(at 76.2 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Power_Strip_Library:GMR50HJAAFD5L00"
-			(at 85.09 173.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-			(at 85.09 273.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
-			(at 71.12 77.47 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 76.2 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,119 +7653,66 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 85.09 473.66 0)
+		(property "Datasheet" "~"
+			(at 76.2 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-			(at 85.09 573.66 0)
+		(property "Description" "Resistor"
+			(at 76.2 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-			(at 85.09 673.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 85.09 773.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-			(at 85.09 873.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "b41d46e5-2122-4e28-bb4d-b6c4019ef6bd")
+			(uuid "1aa76e22-4477-4577-a904-a326ae8b464d")
 		)
 		(pin "2"
-			(uuid "7d89c853-c8d2-4967-a689-595be75d77fd")
+			(uuid "bdb8f2aa-2930-4cfc-91bd-5988d65ebc2c")
 		)
 		(instances
-			(project "powerstrip_right"
+			(project ""
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
-					(reference "R8")
+					(reference "shunt_01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Strip_Library:GMR50HJAAFD5L00")
-		(at 71.12 33.02 0)
+		(lib_id "Device:R")
+		(at 76.2 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f74fe35-fa56-4e0e-9489-eee34804f20f")
-		(property "Reference" "R2"
-			(at 80.01 26.67 0)
+		(uuid "1bb7640e-25e5-452e-80de-3946ecf19da6")
+		(property "Reference" "shunt_2"
+			(at 76.2 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GMR50HJAAFD5L00"
-			(at 80.01 29.21 0)
+		(property "Value" "R0.005"
+			(at 76.2 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Power_Strip_Library:GMR50HJAAFD5L00"
-			(at 85.09 129.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-			(at 85.09 229.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
-			(at 71.12 33.02 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 76.2 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,119 +7720,67 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 85.09 429.21 0)
+		(property "Datasheet" "~"
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-			(at 85.09 529.21 0)
+		(property "Description" "Resistor"
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-			(at 85.09 629.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 85.09 729.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-			(at 85.09 829.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "a4a13d8c-767f-4364-a66b-a999034a417c")
+			(uuid "fe2fd433-d233-47ed-a2b5-dab9a7fdd131")
 		)
 		(pin "2"
-			(uuid "5a2360ee-bb71-428d-a74b-a9bbc15e1074")
+			(uuid "2e5744b0-ff62-4f74-a1e1-9dacde24609e")
 		)
 		(instances
 			(project "powerstrip_right"
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
-					(reference "R2")
+					(reference "shunt_2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Strip_Library:GMR50HJAAFD5L00")
-		(at 71.12 50.8 0)
+		(lib_id "Device:R")
+		(at 76.2 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2239ee6a-8a52-440e-8a7d-01bf66a2eaaf")
-		(property "Reference" "R4"
-			(at 80.01 44.45 0)
+		(uuid "1e59abb7-9ac3-40a3-9297-d9fc09810747")
+		(property "Reference" "shunt_5"
+			(at 76.2 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GMR50HJAAFD5L00"
-			(at 80.01 46.99 0)
+		(property "Value" "R0.005"
+			(at 76.2 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Power_Strip_Library:GMR50HJAAFD5L00"
-			(at 85.09 146.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-			(at 85.09 246.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
-			(at 71.12 50.8 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 76.2 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,119 +7788,69 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 85.09 446.99 0)
+		(property "Datasheet" "~"
+			(at 76.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-			(at 85.09 546.99 0)
+		(property "Description" "Resistor"
+			(at 76.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-			(at 85.09 646.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 85.09 746.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-			(at 85.09 846.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "170e36d1-b0ce-42f8-8145-1fdd382ff54c")
+			(uuid "f6d62df6-cfb5-4b28-b125-b1c58be38a40")
 		)
 		(pin "2"
-			(uuid "c6d4ff0e-921c-44c9-b639-85aa18a6c4d2")
+			(uuid "275d2f58-7826-4de4-84af-5a3bfe159ebe")
 		)
 		(instances
 			(project "powerstrip_right"
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
-					(reference "R4")
+					(reference "shunt_5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Strip_Library:GMR50HJAAFD5L00")
-		(at 71.12 86.36 0)
+		(lib_id "Device:C")
+		(at 205.74 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3cee024e-3b37-4f60-9a6b-da36f4085e68")
-		(property "Reference" "R9"
-			(at 80.01 80.01 0)
+		(uuid "2354a226-12ce-4289-9a7b-9ad628b56825")
+		(property "Reference" "C15"
+			(at 209.55 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GMR50HJAAFD5L00"
-			(at 80.01 82.55 0)
+		(property "Value" "10u Tantal"
+			(at 209.55 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Power_Strip_Library:GMR50HJAAFD5L00"
-			(at 85.09 182.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-			(at 85.09 282.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
-			(at 71.12 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 206.7052 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,66 +7858,104 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 85.09 482.55 0)
+		(property "Datasheet" "~"
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-			(at 85.09 582.55 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 205.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-			(at 85.09 682.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 85.09 782.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-			(at 85.09 882.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "b9099c6a-76d3-471b-a54b-4551cbac754d")
+			(uuid "ab5df3f1-c442-48d1-8755-c08e5a1c13a6")
 		)
 		(pin "2"
-			(uuid "99eca6b8-3720-4227-a335-6a09d6a3bec5")
+			(uuid "8d655bd0-e361-4d35-89ee-a36c398c9b07")
 		)
 		(instances
-			(project "powerstrip_right"
+			(project ""
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
-					(reference "R9")
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.89 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36f4a991-6d9e-4074-8d7d-609b2fb02d07")
+		(property "Reference" "C13"
+			(at 266.7 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 266.7 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 263.8552 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab5df3f1-c442-48d1-8755-c08e5a1c13a6")
+		)
+		(pin "2"
+			(uuid "8d655bd0-e361-4d35-89ee-a36c398c9b07")
+		)
+		(instances
+			(project ""
+				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7023,10 +8246,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8d")
+			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8e")
 		)
 		(pin "1"
-			(uuid "8ea9a221-406f-4f2d-856c-e15076663831")
+			(uuid "8ea9a221-406f-4f2d-856c-e15076663832")
 		)
 		(instances
 			(project ""
@@ -7103,6 +8326,145 @@
 			(project ""
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Voltage_Regulator_AKL:LT1117CST-3.3")
+		(at 193.04 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b8c1d67-e7a2-4f71-a060-a5d0dbb60360")
+		(property "Reference" "U3"
+			(at 193.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1117CST-3.3"
+			(at 193.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-223 3.3V, 800mA, low dropout voltage regulator, Alternate KiCad Library"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e75953ac-e6a2-46a0-8528-c9d1b66b82d8")
+		)
+		(pin "3"
+			(uuid "0d157a16-8047-4771-8da7-a188c4a876a5")
+		)
+		(pin "1"
+			(uuid "6e35ec5a-17c3-41f4-9111-dfd0d4002780")
+		)
+		(instances
+			(project ""
+				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e55936f-d916-4e51-8690-d263a7089bc7")
+		(property "Reference" "shunt_3"
+			(at 76.2 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0.005"
+			(at 76.2 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 76.2 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cd4dfbe-187d-4c06-8f8e-fbda672942e0")
+		)
+		(pin "2"
+			(uuid "eabe2e55-9757-4146-b162-668ac7cf7750")
+		)
+		(instances
+			(project "powerstrip_right"
+				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
+					(reference "shunt_3")
 					(unit 1)
 				)
 			)
@@ -7190,7 +8552,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 245.11 87.63 180)
+		(at 252.73 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7199,7 +8561,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ec662bd-02df-492c-b20a-f39c81a555c3")
 		(property "Reference" "J8"
-			(at 246.38 85.0899 0)
+			(at 254 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +8570,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 246.38 87.6299 0)
+			(at 254 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +8579,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11008_1x08-1MP_P0.5mm_Horizontal"
-			(at 245.11 87.63 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +8588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 87.63 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +8597,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 245.11 87.63 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,10 +8694,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8d")
+			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8f")
 		)
 		(pin "1"
-			(uuid "8ea9a221-406f-4f2d-856c-e15076663831")
+			(uuid "8ea9a221-406f-4f2d-856c-e15076663833")
 		)
 		(instances
 			(project ""
@@ -7553,10 +8915,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8d")
+			(uuid "0fafb247-01f9-420c-b221-20302cbb2e90")
 		)
 		(pin "1"
-			(uuid "8ea9a221-406f-4f2d-856c-e15076663831")
+			(uuid "8ea9a221-406f-4f2d-856c-e15076663834")
 		)
 		(instances
 			(project ""
@@ -7760,7 +9122,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 245.11 105.41 180)
+		(at 252.73 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7769,7 +9131,7 @@
 		(fields_autoplaced yes)
 		(uuid "85eaa061-42ec-41d6-b532-9083719d5e1b")
 		(property "Reference" "J9"
-			(at 246.38 102.8699 0)
+			(at 254 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +9140,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 246.38 105.4099 0)
+			(at 254 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +9149,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
-			(at 245.11 105.41 0)
+			(at 252.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,7 +9158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 105.41 0)
+			(at 252.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +9167,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 245.11 105.41 0)
+			(at 252.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7823,6 +9185,74 @@
 			(project ""
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85f7f9e8-562c-472e-bf29-63266ee5c869")
+		(property "Reference" "shunt_8"
+			(at 76.2 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0.005"
+			(at 76.2 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 76.2 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77fc7d32-e6c0-4009-9431-81e891b77fa7")
+		)
+		(pin "2"
+			(uuid "08087c1e-ad47-4742-bb6a-3d498490d1be")
+		)
+		(instances
+			(project "powerstrip_right"
+				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
+					(reference "shunt_8")
 					(unit 1)
 				)
 			)
@@ -7884,135 +9314,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8d")
+			(uuid "0fafb247-01f9-420c-b221-20302cbb2e91")
 		)
 		(pin "1"
-			(uuid "8ea9a221-406f-4f2d-856c-e15076663831")
+			(uuid "8ea9a221-406f-4f2d-856c-e15076663835")
 		)
 		(instances
 			(project ""
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Strip_Library:GMR50HJAAFD5L00")
-		(at 71.12 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a704461-a0f8-41d5-9070-b1bdbb8a1b14")
-		(property "Reference" "R1"
-			(at 80.01 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GMR50HJAAFD5L00"
-			(at 80.01 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Power_Strip_Library:GMR50HJAAFD5L00"
-			(at 85.09 120.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-			(at 85.09 220.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
-			(at 71.12 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 85.09 420.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-			(at 85.09 520.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-			(at 85.09 620.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 85.09 720.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-			(at 85.09 820.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "041f4c96-66a0-47f9-8814-4966d8a0282f")
-		)
-		(pin "2"
-			(uuid "1810ca72-bc1d-430e-8b58-6c3f3f893f57")
-		)
-		(instances
-			(project ""
-				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8620,6 +9930,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 76.2 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e1db0c8-1f71-46a5-8eb3-c96bf1e31556")
+		(property "Reference" "shunt_6"
+			(at 76.2 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0.005"
+			(at 76.2 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 76.2 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37e3c1f3-ea2a-4559-ac20-0c2b30ad98da")
+		)
+		(pin "2"
+			(uuid "8f7fc47a-e74c-49fd-9ec7-1d8afcd704f1")
+		)
+		(instances
+			(project "powerstrip_right"
+				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
+					(reference "shunt_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 166.37 107.95 0)
 		(unit 1)
@@ -8675,10 +10053,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8d")
+			(uuid "0fafb247-01f9-420c-b221-20302cbb2e92")
 		)
 		(pin "1"
-			(uuid "8ea9a221-406f-4f2d-856c-e15076663831")
+			(uuid "8ea9a221-406f-4f2d-856c-e15076663836")
 		)
 		(instances
 			(project ""
@@ -8745,10 +10123,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8d")
+			(uuid "0fafb247-01f9-420c-b221-20302cbb2e93")
 		)
 		(pin "1"
-			(uuid "8ea9a221-406f-4f2d-856c-e15076663831")
+			(uuid "8ea9a221-406f-4f2d-856c-e15076663837")
 		)
 		(instances
 			(project ""
@@ -8760,53 +10138,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Strip_Library:GMR50HJAAFD5L00")
-		(at 71.12 68.58 0)
+		(lib_id "Device:R")
+		(at 76.2 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cdc76cba-437e-4453-9282-95aab9b8526a")
-		(property "Reference" "R7"
-			(at 80.01 62.23 0)
+		(uuid "ba16a533-b870-46de-afeb-f096c7fd3109")
+		(property "Reference" "shunt_4"
+			(at 76.2 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GMR50HJAAFD5L00"
-			(at 80.01 64.77 0)
+		(property "Value" "R0.005"
+			(at 76.2 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Power_Strip_Library:GMR50HJAAFD5L00"
-			(at 85.09 164.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-			(at 85.09 264.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
-			(at 71.12 68.58 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 76.2 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,66 +10172,104 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 85.09 464.77 0)
+		(property "Datasheet" "~"
+			(at 76.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-			(at 85.09 564.77 0)
+		(property "Description" "Resistor"
+			(at 76.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-			(at 85.09 664.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 85.09 764.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-			(at 85.09 864.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "74f8ec3a-b8a3-4ba3-b8f7-a838dacd3811")
+			(uuid "1d2822fe-a789-4417-afa6-6f8f79d13595")
 		)
 		(pin "2"
-			(uuid "a498a9ad-9917-495e-aef5-4a1192c636b7")
+			(uuid "d56c6b23-3ac1-4bb3-8ea9-2eb35993303e")
 		)
 		(instances
 			(project "powerstrip_right"
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
-					(reference "R7")
+					(reference "shunt_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb1a691a-201c-4736-80ea-c3ad788123e9")
+		(property "Reference" "C14"
+			(at 184.15 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 184.15 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 181.3052 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12984d98-2be9-4c0c-942e-1bcb3f76957a")
+		)
+		(pin "2"
+			(uuid "62ae2cc0-2469-454f-aa2b-0d7773511034")
+		)
+		(instances
+			(project "powerstrip_right"
+				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8935,10 +10331,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8d")
+			(uuid "0fafb247-01f9-420c-b221-20302cbb2e94")
 		)
 		(pin "1"
-			(uuid "8ea9a221-406f-4f2d-856c-e15076663831")
+			(uuid "8ea9a221-406f-4f2d-856c-e15076663838")
 		)
 		(instances
 			(project ""
@@ -8968,7 +10364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 237.49 39.3699 0)
 			(effects
 				(font
@@ -8977,7 +10373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 234.6452 41.91 0)
 			(effects
 				(font
@@ -9091,53 +10487,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Strip_Library:GMR50HJAAFD5L00")
-		(at 71.12 41.91 0)
+		(lib_id "Device:R")
+		(at 76.2 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f199da10-5d3c-40cf-bfab-351eb3cc861d")
-		(property "Reference" "R3"
-			(at 80.01 35.56 0)
+		(uuid "dbf25f51-7291-4f01-9fa3-524ac4d44897")
+		(property "Reference" "shunt_7"
+			(at 76.2 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GMR50HJAAFD5L00"
-			(at 80.01 38.1 0)
+		(property "Value" "R0.005"
+			(at 76.2 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Power_Strip_Library:GMR50HJAAFD5L00"
-			(at 85.09 138.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
-			(at 85.09 238.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)"
-			(at 71.12 41.91 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 76.2 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,66 +10521,104 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 85.09 438.1 0)
+		(property "Datasheet" "~"
+			(at 76.2 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-GMR50HJAAFD5L00"
-			(at 85.09 538.1 0)
+		(property "Description" "Resistor"
+			(at 76.2 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D"
-			(at 85.09 638.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 85.09 738.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GMR50HJAAFD5L00"
-			(at 85.09 838.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "f1d1b108-2b99-4e6e-973c-960ef3e608ef")
+			(uuid "52186a31-93c2-43af-889f-abaefdff3af0")
 		)
 		(pin "2"
-			(uuid "2f07fbd6-c994-438b-8429-a6d48a76100d")
+			(uuid "714b3038-a7c2-4648-ab78-5df719209df5")
 		)
 		(instances
 			(project "powerstrip_right"
 				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
-					(reference "R3")
+					(reference "shunt_7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dea4a19b-5130-4120-97df-2d11f35bf434")
+		(property "Reference" "C2"
+			(at 163.83 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 163.83 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 160.9852 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab5df3f1-c442-48d1-8755-c08e5a1c13a6")
+		)
+		(pin "2"
+			(uuid "8d655bd0-e361-4d35-89ee-a36c398c9b07")
+		)
+		(instances
+			(project ""
+				(path "/547e8f82-0ee9-4dfe-a3d4-41433448cea6"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9266,10 +10680,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fafb247-01f9-420c-b221-20302cbb2e8d")
+			(uuid "0fafb247-01f9-420c-b221-20302cbb2e95")
 		)
 		(pin "1"
-			(uuid "8ea9a221-406f-4f2d-856c-e15076663831")
+			(uuid "8ea9a221-406f-4f2d-856c-e15076663839")
 		)
 		(instances
 			(project ""

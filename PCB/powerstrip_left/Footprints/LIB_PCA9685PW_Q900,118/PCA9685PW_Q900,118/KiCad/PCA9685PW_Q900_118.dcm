@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9685PW_Q900,118
+D NXP - PCA9685PW/Q900,118 - LED DRIVER, AEC-Q100, 16-CH, TSSOP-20
+K
+F http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf
+$ENDCMP
+#
+#End Doc Library

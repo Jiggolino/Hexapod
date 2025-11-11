@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Power_Strip_Library")(type "KiCad")(uri "${KIPRJMOD}/Power_Strip_Library.pretty")(options "")(descr ""))
+)
