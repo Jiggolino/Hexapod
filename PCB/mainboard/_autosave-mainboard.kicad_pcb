@@ -225,7 +225,7 @@
 	(footprint "lib:QFP50P2200X2200X160-144N"
 		(layer "F.Cu")
 		(uuid "0ad5fe8f-2693-4b74-b4a9-a405476f1c14")
-		(at 149.55 104.038)
+		(at 149.25 103.75)
 		(descr "LQFP144, 20 x 20 mm, 144-pin")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
