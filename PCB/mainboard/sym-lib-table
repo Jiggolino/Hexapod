@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mianboard")(type "KiCad")(uri "${KIPRJMOD}/lib/mianboard.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32H743ZIT6")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_STM32H743ZIT6/STM32H743ZIT6/KiCad/STM32H743ZIT6.kicad_sym")(options "")(descr ""))
+  (lib (name "BLM31KN601SH1L")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_BLM31KN601SH1L/BLM31KN601SH1L/KiCad/BLM31KN601SH1L.kicad_sym")(options "")(descr ""))
+  (lib (name "434121025816")(type "KiCad")(uri "C:/Users/linus/Downloads/434121025816/434121025816.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-250-8-36CKM-TR3")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_ECS-250-8-36CKM-TR3/ECS-250-8-36CKM-TR3/KiCad/ECS-250-8-36CKM-TR3.kicad_sym")(options "")(descr ""))
+  (lib (name "CM7V-T1A-32_768KHZ-7PF-20PPM-T")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC/CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC/KiCad/CM7V-T1A-32_768KHZ-7PF-20PPM-T.kicad_sym")(options "")(descr ""))
+)

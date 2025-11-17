@@ -17217,17 +17217,6 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/linus/Downloads/FPC-8.stp"
-			(offset
-				(xyz -1.75 3.25 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 		(layer "B.Cu")
