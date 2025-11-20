@@ -428,9 +428,9 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "warning",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -574,7 +574,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_text_size": 45.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -621,6 +621,14 @@
     [
       "a8b3cc2d-7554-40f3-826c-dc6c2c398d19",
       "3.3V 3 A Buck Converter"
+    ],
+    [
+      "a9b1073a-a94d-4144-916f-539263f971f9",
+      "MCU PWR SUPPLIES"
+    ],
+    [
+      "bd065d65-da56-47f7-baea-560a49879095",
+      "MCU Configuration"
     ]
   ],
   "text_variables": {}

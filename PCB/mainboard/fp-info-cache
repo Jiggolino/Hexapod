@@ -1,4 +1,4 @@
-45887996516323447
+45895050339327964
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -183505,9 +183505,37 @@ LED
 2
 2
 lib
+LSM6DS3USTR
+LGA-14(2.5x3x0.86)
+Accelerometer
+0
+14
+14
+lib
 QFP50P2200X2200X160-144N
 LQFP144, 20 x 20 mm, 144-pin
 Integrated Circuit
 0
 144
 144
+lib
+SODFL1608X65N
+SOD523
+Diode
+0
+2
+2
+lib
+SOP50P488X110-10N
+MSOP-10
+Integrated Circuit
+0
+10
+10
+lib
+SOP65P640X120-14N
+TSSOP-14_2024
+Integrated Circuit
+0
+14
+14
