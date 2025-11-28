@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS5430DDA
+#/4932/1803662/2.50/9/3/Integrated Circuit
+DEF TPS5430DDA IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "TPS5430DDA" 1250 200 50 H V L CNN
+F2 "SOIC127P600X170-9N" 1250 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100034215.pdf" 1250 0 50 H I L CNN
+F4 "TPS5430DDA, Switching Regulator, Buck Controller, 3A, Adjustable, 1.22 to 31V, 500kHz, 8-Pin SOIC" 1250 -100 50 H I L CNN "Description"
+F5 "1.7" 1250 -200 50 H I L CNN "Height"
+F6 "595-TPS5430DDA" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS5430DDA?qs=zwk82MlA57bk5fOPRvfoCA%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPS5430DDA" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X BOOT 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X NC_2 3 0 -200 200 R 50 50 0 0 P
+X VSENSE 4 0 -300 200 R 50 50 0 0 P
+X GND_2 9 700 -1000 200 U 50 50 0 0 P
+X PH 8 1400 0 200 L 50 50 0 0 P
+X VIN 7 1400 -100 200 L 50 50 0 0 P
+X GND_1 6 1400 -200 200 L 50 50 0 0 P
+X ENA 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

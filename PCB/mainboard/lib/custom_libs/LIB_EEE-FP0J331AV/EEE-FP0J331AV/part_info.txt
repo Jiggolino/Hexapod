@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EEE-FP0J331AV
+PartCategory=Capacitor Polarised
+PackageCategory=Other
+PinCount=6
+Version=5.2
+Released=2021-09-29 09:12:48
+Downloaded=2025-11-28 09:30:01
+3D=Y

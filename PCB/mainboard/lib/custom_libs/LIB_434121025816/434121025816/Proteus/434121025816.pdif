@@ -1,0 +1,112 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "434121025816"
+   (description "WS-TASV Tact Switch 6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R")
+   (family "SWI")
+   (package "434121050816")
+   (attribute "Datasheet Link" "https://www.we-online.com/catalog/datasheet/434121025816.pdf")
+   (attribute "Geometry.Height" "5mm")
+   (attribute "Mouser Part Number" "710-434121025816")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "434121025816")
+   (gate
+    (symbol "434121025816")
+    (pin "COM" 1 PS)
+    (pin "NO" 2 PS)
+   )
+  )
+  (symbol "434121025816"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "434121050816"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3 1.75)
+      (pt 3 1.75)
+      (pt 3 -1.75)
+      (pt -3 -1.75)
+      (pt -3 1.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6 2.75)
+      (pt 5.5 2.75)
+      (pt 5.5 -2.75)
+      (pt -6 -2.75)
+      (pt -6 2.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3 1)
+      (pt -3 1.75)
+      (pt 3 1.75)
+      (pt 3 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3 -1)
+      (pt -3 -1.75)
+      (pt 3 -1.75)
+      (pt 3 -1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.9 0.1)
+      (arc (pt -4.900 0.100) (pt -5.000 -0.100) (pt -4.800 0.100) (start -180.0) (sweep 90.0))
+      (pt -4.9 -0.1)
+      (arc (pt -4.900 -0.100) (pt -5.000 -0.100) (pt -4.800 0.100) (start -180.0) (sweep -90.0))
+      (pt -4.9 0.1))))
+   (leg 1 (pt -3.350 0.000) (padstack 0))
+   (leg 2 (pt 3.350 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.500 2.300 0 0 0.000))
+   )
+   (model "434121025816.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74HCT125T14_13'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "74HCT125T14-13" (!) = "", "SOP65P640X120-14N", "Small Outline Packages", "621-74HCT125T14-13", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74HCT125T14-13?qs=pYVYkI7xuRW%2Fbse6mhLP1g%3D%3D", "DiodesZetex 74HCT125T14-13, Quad, Buffer 3-State, Non-Inverting, 4.5  5.5 V, 14-Pin TSSOP", "https://www.diodes.com//assets/Datasheets/74HCT125.pdf", "1.2 mm"
+END_PART
+
+END.

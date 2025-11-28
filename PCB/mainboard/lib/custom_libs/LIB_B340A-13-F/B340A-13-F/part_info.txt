@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=B340A-13-F
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.1
+Released=2016-05-12 08:16:54
+Downloaded=2025-11-28 09:24:10
+3D=Y

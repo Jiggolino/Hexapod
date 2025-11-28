@@ -1715,6 +1715,50 @@
 		)
 		(uuid "f91cd5ef-6f1a-427c-a962-6ba8de4c2b32")
 	)
+	(global_label "VCAP_1"
+		(shape input)
+		(at 245.11 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "0a7aff7b-0bfa-4a28-9fb8-9b9614a12231")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 71.1186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCAP_2"
+		(shape input)
+		(at 256.54 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "71716c1f-b5e9-4015-b773-f03504f12b43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 71.1186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 256.54 85.09 0)
@@ -1743,7 +1787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 257.5052 88.9 0)
 			(effects
 				(font
@@ -2326,6 +2370,71 @@
 			(project ""
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 54.61 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21670ef2-4e72-4fee-96fb-61e9d413eed0")
+		(property "Reference" "#PWR0142"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_MCU"
+			(at 54.61 57.658 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcc62356-6706-47f0-8989-8914c82b1878")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -3006,72 +3115,6 @@
 			(project "mainboard"
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 245.11 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a884e98-d8fe-4346-8f73-98bda52f8dfb")
-		(property "Reference" "#PWR032"
-			(at 245.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCAP"
-			(at 245.11 74.93 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 245.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fc77a40-2993-408b-b9f1-4e350812afb6")
-		)
-		(instances
-			(project "mainboard"
-				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4189,7 +4232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 246.0752 88.9 0)
 			(effects
 				(font
@@ -4426,6 +4469,72 @@
 			(project "mainboard"
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 54.61 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b964fa-8d89-4c27-b7b6-45e3073f2496")
+		(property "Reference" "#PWR0150"
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64fa1e50-1885-469b-bdce-65356de8b4be")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -4898,72 +5007,6 @@
 			(project "mainboard"
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 256.54 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feb88486-eb9e-4797-ad1f-56291db4a321")
-		(property "Reference" "#PWR086"
-			(at 256.54 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCAP"
-			(at 256.54 74.93 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 256.54 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2157350-2502-488a-844c-9cf1bb6f38da")
-		)
-		(instances
-			(project "mainboard"
-				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)

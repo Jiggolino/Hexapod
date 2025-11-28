@@ -1,0 +1,7 @@
+11-24 13:52:02 com_github_MitjaNemec_SwapStubs.action_swap_stubs 109:Plugin executed on: 'linux'
+11-24 13:52:02 com_github_MitjaNemec_SwapStubs.action_swap_stubs 110:Plugin executed with python version: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]'
+11-24 13:52:02 com_github_MitjaNemec_SwapStubs.action_swap_stubs 111:KiCad build version: 9.0.6-9.0.6~ubuntu24.04.1
+11-24 13:52:02 com_github_MitjaNemec_SwapStubs.action_swap_stubs 112:Plugin version: 1.0.8
+
+11-24 13:52:02 com_github_MitjaNemec_SwapStubs.action_swap_stubs 113:Frame repr: <wx._core.Frame object at 0x73f72b0d3da0>
+11-24 13:52:02 com_github_MitjaNemec_SwapStubs.action_swap_stubs 116:Sch frame repr: <wx._core.Frame object at 0x73f72af30710>

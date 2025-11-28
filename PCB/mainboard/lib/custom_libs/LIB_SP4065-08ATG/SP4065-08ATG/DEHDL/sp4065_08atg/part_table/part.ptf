@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SP4065_08ATG'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "SP4065-08ATG" (!) = "", "SOP50P488X110-10N", "Small Outline Packages", "576-SP4065-08ATG", "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP4065-08ATG?qs=0Dbrz4iFQy%2FklE79eCp2zA%3D%3D", "LITTELFUSE - SP4065-08ATG - DIODE, ESD PROTECTION, 3.3V, MSOP", "https://componentsearchengine.com/Datasheets/2/SP4065-08ATG.pdf", "1.1 mm"
+END_PART
+
+END.

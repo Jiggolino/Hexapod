@@ -5,230 +5,151 @@
 	(uuid "7be8722c-c102-46e5-b983-4c811737cdd6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "434121025816:434121025816"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "434121025816_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "S"
-				(at -0.635 2.54 0)
+				(at 19.05 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
 			(property "Value" "434121025816"
-				(at 0 -3.81 0)
+				(at 19.05 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "434121025816:434121025816"
+			(property "Footprint" "434121050816"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/434121025816.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WS-TASV Tact Switch 6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "5"
+				(at 19.05 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" "710-434121025816"
+				(at 19.05 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MF" "Wurth Electronics"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D"
+				(at 19.05 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description_1" "6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 19.05 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "434121025816"
+				(at 19.05 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/434121025816/Wurth+Electronics/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "434121025816"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/434121025816/Wurth+Electronics/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "434121025816_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.805 0)
-					)
+			(symbol "434121025816_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.47 0.47) (xy 1.34 1.04)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 0)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.805 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -702,11 +623,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECS-250-8-36CKM-TR3:ECS-250-8-36CKM-TR3"
+		(symbol "ECS-250-8-36CKM-TR3_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y1"
+			(property "Reference" "Y3"
 				(at 16.51 7.62 0)
 				(effects
 					(font
@@ -718,11 +639,11 @@
 				(at 16.51 5.08 0)
 				(effects
 					(font
-						(size 1.143 1.143)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "lib:ECS250836CKMTR3"
+			(property "Footprint" "ECS250836CKMTR3"
 				(at 29.21 -94.92 0)
 				(effects
 					(font
@@ -801,10 +722,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ECS-250-8-36CKM-TR3_1_1"
+			(symbol "ECS-250-8-36CKM-TR3_1_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 27.94 -11.43)
+					(end 27.94 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1164,6 +1085,18 @@
 		(uuid 5b2f27c4-fc60-4389-86a2-364df655611f)
 	)
 	(rectangle
+		(start 48.26 87.63)
+		(end 93.98 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 824c0ce2-17db-48a8-9700-8703c8cc4135)
+	)
+	(rectangle
 		(start 48.26 55.88)
 		(end 102.87 83.82)
 		(stroke
@@ -1184,6 +1117,16 @@
 			)
 		)
 		(uuid "1028b9f5-dfcf-4035-b27e-18fdad5641f0")
+	)
+	(text "User Button"
+		(exclude_from_sim no)
+		(at 53.086 86.614 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "4fe8a442-221d-4e60-8e90-63cc35faa1c0")
 	)
 	(text "RESET Button"
 		(exclude_from_sim no)
@@ -1226,16 +1169,16 @@
 		(uuid "e119adb4-90b2-41b2-bf54-6466b2ad9f13")
 	)
 	(junction
+		(at 71.12 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "068baf46-9fb0-47de-a576-53f0ceb68797")
+	)
+	(junction
 		(at 210.82 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d445a1e-d0e9-45f3-8452-5aae45d1da89")
-	)
-	(junction
-		(at 128.27 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10de4b60-faa2-4303-8dc4-665bbaf36815")
 	)
 	(junction
 		(at 72.39 69.85)
@@ -1262,6 +1205,12 @@
 		(uuid "577feb99-f6f2-441d-84ae-b3d336f9195a")
 	)
 	(junction
+		(at 128.27 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5db4c639-0c08-4055-8c00-11271d5ee616")
+	)
+	(junction
 		(at 120.65 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1278,6 +1227,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8162b76e-b754-42fb-b480-249e960ec32f")
+	)
+	(junction
+		(at 128.27 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9032ea04-2e14-4557-9e6f-e93db45e6095")
 	)
 	(junction
 		(at 128.27 128.27)
@@ -1298,10 +1253,16 @@
 		(uuid "cfb27a97-2b13-421a-ae20-5ebfeccf9114")
 	)
 	(junction
-		(at 128.27 116.84)
+		(at 64.77 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df936cfc-4e58-4c6d-9b69-b9dd29128bd3")
+		(uuid "e183f971-384e-42cc-bfd6-60cb3dbb73aa")
+	)
+	(junction
+		(at 71.12 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdc85ea5-09e1-4321-92ae-d06a728569f6")
 	)
 	(wire
 		(pts
@@ -1312,6 +1273,26 @@
 			(type default)
 		)
 		(uuid "044b37d2-3a51-40ad-b59f-a73a63ffddaa")
+	)
+	(wire
+		(pts
+			(xy 71.12 107.95) (xy 71.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093d4d4d-8751-438b-acd5-c41a2104016e")
+	)
+	(wire
+		(pts
+			(xy 71.12 105.41) (xy 71.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eea3fc3-5c47-49ef-85a3-e0735c51e262")
 	)
 	(wire
 		(pts
@@ -1335,6 +1316,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 95.25) (xy 71.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b6ac0d-a720-4399-9dfc-bbb08a6e753f")
+	)
+	(wire
+		(pts
 			(xy 128.27 115.57) (xy 128.27 116.84)
 		)
 		(stroke
@@ -1352,6 +1343,16 @@
 			(type default)
 		)
 		(uuid "4916f4a7-ab78-47de-8155-77ee8abeaee7")
+	)
+	(wire
+		(pts
+			(xy 64.77 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c11bc13-16db-411e-a78e-9f136a8f17d7")
 	)
 	(wire
 		(pts
@@ -1405,6 +1406,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 71.12) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4082d5-b702-49e1-ad95-32a6c8ea0736")
+	)
+	(wire
+		(pts
 			(xy 180.34 71.12) (xy 181.61 71.12)
 		)
 		(stroke
@@ -1455,13 +1466,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 63.5) (xy 128.27 66.04)
+			(xy 128.27 63.5) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "817ec8b2-7156-4daa-8add-9588c9c9ed4e")
+	)
+	(wire
+		(pts
+			(xy 64.77 107.95) (xy 64.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d35f4bc-33c1-44b8-a062-ba26394a3a08")
 	)
 	(wire
 		(pts
@@ -1485,6 +1506,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 107.95) (xy 71.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c61a62-7ed0-4a2d-8965-4c588dd7716d")
+	)
+	(wire
+		(pts
 			(xy 72.39 69.85) (xy 64.77 69.85)
 		)
 		(stroke
@@ -1492,6 +1523,16 @@
 			(type default)
 		)
 		(uuid "a24fafba-acc0-45b2-b547-6144f99caeed")
+	)
+	(wire
+		(pts
+			(xy 71.12 120.65) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38c56c3-8c5a-47cd-8eb5-613fd90f6a6a")
 	)
 	(wire
 		(pts
@@ -1522,6 +1563,16 @@
 			(type default)
 		)
 		(uuid "b1efed64-af2c-4523-bcc9-9a9e687a5ef3")
+	)
+	(wire
+		(pts
+			(xy 60.96 107.95) (xy 64.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83ec074-9f5d-4ba8-8391-56e27da695a0")
 	)
 	(wire
 		(pts
@@ -1595,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 128.27) (xy 128.27 127)
+			(xy 128.27 121.92) (xy 128.27 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1622,6 +1673,16 @@
 			(type default)
 		)
 		(uuid "e2b97a2b-ef77-4f66-a0e1-05475f9250c2")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c55680-1e24-41c2-b6b6-de4081c2d293")
 	)
 	(wire
 		(pts
@@ -1741,6 +1802,28 @@
 			)
 		)
 	)
+	(global_label "User Button"
+		(shape input)
+		(at 60.96 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify right)
+		)
+		(uuid "49339b6d-0109-40c1-81f9-4286a5dc6e17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.0411 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PH1-OSC_OUT"
 		(shape input)
 		(at 222.25 71.12 0)
@@ -1804,6 +1887,72 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04d52c25-4028-49c4-ba0f-b93837b6d018")
+		(property "Reference" "#PWR068"
+			(at 71.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce38d1c0-4d1f-40d1-a021-3b7613552a4d")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "#PWR068")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1877,6 +2026,248 @@
 		)
 	)
 	(symbol
+		(lib_name "434121025816_1")
+		(lib_id "434121025816:434121025816")
+		(at 71.12 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24d8a98b-5685-4fd1-8df8-364a4c3a3c62")
+		(property "Reference" "S1"
+			(at 90.17 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "434121025816"
+			(at 78.232 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:434121025816"
+			(at 90.17 197.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/434121025816.pdf"
+			(at 90.17 297.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV Tact Switch 6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R"
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 90.17 497.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-434121025816"
+			(at 90.17 597.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D"
+			(at 90.17 697.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 90.17 797.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "434121025816"
+			(at 90.17 897.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1672e8fa-ae88-4616-b9ce-8db2a9e106fb")
+		)
+		(pin "2"
+			(uuid "8915d6b4-f9d6-4916-8a2c-b43197151ca7")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CM7V-T1A-32_768KHZ-7PF-20PPM-T:CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC")
+		(at 190.5 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "318000c0-c84d-4188-9f7c-dbf1c32aa4bc")
+		(property "Reference" "Y1"
+			(at 195.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:CM7V32768TBQA020"
+			(at 199.39 206.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf"
+			(at 199.39 306.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRYSTAL 32.768KHZ SMD"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.65"
+			(at 199.39 506.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "428-201345-MG01"
+			(at 199.39 606.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32.768kHz-7pF-20PPM-TA-QC?qs=7bTaA%2FLYtSYA2NGDS9ZOKA%3D%3D"
+			(at 199.39 706.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Micro Crystal AG"
+			(at 199.39 806.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
+			(at 199.39 906.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f0afa60-e143-499c-8be9-2e4da3f697e2")
+		)
+		(pin "1"
+			(uuid "6535278f-5215-49e0-9c73-da6c33501ef8")
+		)
+		(instances
+			(project ""
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 78.74 0)
 		(unit 1)
@@ -1938,157 +2329,6 @@
 			(project "mainboard"
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "434121025816:434121025816")
-		(at 128.27 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c548f95-ec75-4ea4-afca-e2ae0475e81d")
-		(property "Reference" "S2"
-			(at 130.81 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "434121025816"
-			(at 130.81 72.39 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lib:434121025816"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Electronics"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434121025816/Wurth+Electronics/view-part/?ref=snap"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "434121025816"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/434121025816/Wurth+Electronics/view-part/?ref=eda"
-			(at 128.27 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2475d2e-f3ec-4bd3-9b33-f308cd07588c")
-		)
-		(pin "2"
-			(uuid "5bce38df-ee63-44b7-b9ed-802e106310ed")
-		)
-		(instances
-			(project "mainboard"
-				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -2158,6 +2398,72 @@
 			(project "mainboard"
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45d5f98d-1a34-4c7a-9447-ded9b743756f")
+		(property "Reference" "#PWR0105"
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 124.206 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4c2afff-ae97-416f-a75b-eec3686d14e8")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2432,6 +2738,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 71.12 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63324613-187b-4804-aa03-cd5d19e667fd")
+		(property "Reference" "R6"
+			(at 74.93 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 75.692 114.046 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 72.898 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d82c849-5d01-4bf6-9513-80c6d4d446f7")
+		)
+		(pin "2"
+			(uuid "8a463585-d4de-4eee-a302-34c402a67db3")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 118.11 0)
 		(unit 1)
@@ -2499,6 +2874,128 @@
 		)
 	)
 	(symbol
+		(lib_name "434121025816_1")
+		(lib_id "434121025816:434121025816")
+		(at 128.27 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ac0ddb7-d931-412f-837d-1f4ffbc54434")
+		(property "Reference" "S5"
+			(at 147.32 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "434121025816"
+			(at 133.858 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:434121025816"
+			(at 147.32 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/434121025816.pdf"
+			(at 147.32 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV Tact Switch 6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 147.32 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-434121025816"
+			(at 147.32 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D"
+			(at 147.32 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 147.32 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "434121025816"
+			(at 147.32 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d9c47c0-74f1-49e9-b181-cf9c9c5c4303")
+		)
+		(pin "2"
+			(uuid "df92cdf6-61ac-45fd-b0ca-b441ec66652a")
+		)
+		(instances
+			(project ""
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 118.11 0)
 		(unit 1)
@@ -2560,6 +3057,255 @@
 			(project "mainboard"
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ECS-250-8-36CKM-TR3_1")
+		(lib_id "ECS-250-8-36CKM-TR3:ECS-250-8-36CKM-TR3")
+		(at 181.61 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e326abb-83da-41cc-8df0-f53cf25f3a21")
+		(property "Reference" "Y3"
+			(at 198.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-250-8-36CKM-TR3"
+			(at 198.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:ECS250836CKMTR3"
+			(at 210.82 166.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystals 25MHz,CL 8,TOL +/-10 ppm,STAB +/-10 ppm,-20 +70 C,ESR O60"
+			(at 181.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at 210.82 466.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "520-250-8-36CKM-TR3"
+			(at 210.82 566.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-250-8-36CKM-TR3?qs=e8oIoAS2J1SEILtnBWQaUQ%3D%3D"
+			(at 210.82 666.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ECS"
+			(at 210.82 766.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECS-250-8-36CKM-TR3"
+			(at 210.82 866.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "29dfee33-7b4c-4d52-a2c9-5f87bb03cb05")
+		)
+		(pin "2"
+			(uuid "f8c94786-575d-4f3a-9d50-5bc30988e824")
+		)
+		(pin "3"
+			(uuid "5133d89c-31c7-4d19-a564-5c8df47e1777")
+		)
+		(pin "1"
+			(uuid "804a7c98-077e-4c76-9b47-e5e34164c8f1")
+		)
+		(instances
+			(project ""
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "Y3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "434121025816_1")
+		(lib_id "434121025816:434121025816")
+		(at 128.27 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7812002e-671d-422d-aa8d-43b33604972f")
+		(property "Reference" "S4"
+			(at 147.32 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "434121025816"
+			(at 135.382 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:434121025816"
+			(at 147.32 214.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/434121025816.pdf"
+			(at 147.32 314.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV Tact Switch 6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 147.32 514.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-434121025816"
+			(at 147.32 614.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D"
+			(at 147.32 714.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 147.32 814.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "434121025816"
+			(at 147.32 914.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d9c47c0-74f1-49e9-b181-cf9c9c5c4303")
+		)
+		(pin "2"
+			(uuid "df92cdf6-61ac-45fd-b0ca-b441ec66652a")
+		)
+		(instances
+			(project ""
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -2764,283 +3510,6 @@
 			(project "mainboard"
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "434121025816:434121025816")
-		(at 128.27 121.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91e20f89-c327-4dac-9e59-579cffaa2ce6")
-		(property "Reference" "S3"
-			(at 130.81 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "434121025816"
-			(at 130.81 123.19 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lib:434121025816"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Electronics"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434121025816/Wurth+Electronics/view-part/?ref=snap"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "434121025816"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/434121025816/Wurth+Electronics/view-part/?ref=eda"
-			(at 128.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "992f3839-0113-4e2d-bcaf-d2fa303d3d7a")
-		)
-		(pin "2"
-			(uuid "58836a1c-15af-4a35-99e2-c2e8f2a89e04")
-		)
-		(instances
-			(project "mainboard"
-				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
-					(reference "S3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECS-250-8-36CKM-TR3:ECS-250-8-36CKM-TR3")
-		(at 181.61 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "949d7f27-25d4-4a23-be48-21312f137ee1")
-		(property "Reference" "Y1"
-			(at 198.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-250-8-36CKM-TR3"
-			(at 198.12 66.04 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "lib:ECS250836CKMTR3"
-			(at 210.82 166.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 266.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Crystals 25MHz,CL 8,TOL +/-10 ppm,STAB +/-10 ppm,-20 +70 C,ESR O60"
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6"
-			(at 210.82 466.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "520-250-8-36CKM-TR3"
-			(at 210.82 566.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-250-8-36CKM-TR3?qs=e8oIoAS2J1SEILtnBWQaUQ%3D%3D"
-			(at 210.82 666.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ECS"
-			(at 210.82 766.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECS-250-8-36CKM-TR3"
-			(at 210.82 866.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c20b8f9-c5ac-44e0-8c97-f123e9d5ca28")
-		)
-		(pin "1"
-			(uuid "354b9d75-8406-40d6-9b29-9eb0ceed4356")
-		)
-		(pin "4"
-			(uuid "096d3110-ab15-463e-9702-73aed5306405")
-		)
-		(pin "3"
-			(uuid "89962c9d-e94f-4790-9fba-6a09fa23bab7")
-		)
-		(instances
-			(project "mainboard"
-				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -3322,6 +3791,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 64.77 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8d6f27b-575b-4d76-a540-caf44a389861")
+		(property "Reference" "C9"
+			(at 62.484 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 62.484 111.506 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 63.8048 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a408cb6-3008-4998-bef8-04e87d68b817")
+		)
+		(pin "2"
+			(uuid "fea34326-7d47-4391-a243-b260402e1fea")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 121.92 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3384,126 +3922,6 @@
 			(project "mainboard"
 				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CM7V-T1A-32_768KHZ-7PF-20PPM-T:CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC")
-		(at 190.5 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d965bec6-de84-4a40-a590-0a76171aa3bb")
-		(property "Reference" "Y2"
-			(at 195.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
-			(at 195.58 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "lib:CM7V32768TBQA020"
-			(at 199.39 206.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf"
-			(at 199.39 306.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRYSTAL 32.768KHZ SMD"
-			(at 190.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 199.39 506.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "428-201345-MG01"
-			(at 199.39 606.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32.768kHz-7pF-20PPM-TA-QC?qs=7bTaA%2FLYtSYA2NGDS9ZOKA%3D%3D"
-			(at 199.39 706.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Micro Crystal AG"
-			(at 199.39 806.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
-			(at 199.39 906.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1013581-5731-461b-9de8-1640326ec90f")
-		)
-		(pin "2"
-			(uuid "e3d31673-03b7-4199-a364-2ed17c8284a6")
-		)
-		(instances
-			(project "mainboard"
-				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/bd065d65-da56-47f7-baea-560a49879095"
-					(reference "Y2")
 					(unit 1)
 				)
 			)

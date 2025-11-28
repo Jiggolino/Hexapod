@@ -226,7 +226,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1816100|711200|6e326abb-83da-41cc-8df0-f53cf25f3a21|00000000-0000-0000-0000-000000000000|||",
+        "I changed the distance between the pins of the symbol for a simpler scematic"
+      ],
+      [
+        "lib_symbol_mismatch|1879600|850900|0cbc3198-0ceb-44b3-bf01-c3ac1394a003|00000000-0000-0000-0000-000000000000|||",
+        "i changed the PE2 Pin so its not a Power Input, this is a mistake in the original symbol"
+      ],
+      [
+        "lib_symbol_mismatch|2032000|711200|ed8978a7-ad6a-4d98-8518-7f340fc0f66f|00000000-0000-0000-0000-000000000000|||",
+        "I changed the pinlayout of the symbol for a simpler scematic"
+      ],
+      [
+        "lib_symbol_mismatch|2082800|787400|8406a15c-7ea1-42be-9d7a-241ad335d916|00000000-0000-0000-0000-000000000000|||",
+        "I changed the pinlayout of the symbol for a simpler scematic"
+      ],
+      [
+        "multiple_net_names|685800|800100|751621b7-c778-4d67-9281-6f26fb0ff9ac|bc6aa59c-1550-4970-b8af-c3feaa7f81a0|/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9|/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9|/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9",
+        "Its just for easyer Reading, the VDD_MCU is 3.3V"
+      ]
+    ],
     "meta": {
       "version": 0
     },

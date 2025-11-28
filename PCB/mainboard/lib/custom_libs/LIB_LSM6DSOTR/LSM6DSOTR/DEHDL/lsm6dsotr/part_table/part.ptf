@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSM6DSOTR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "LSM6DSOTR" (!) = "", "LSM6DS3USTR", "Other", "511-LSM6DSOTR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM6DSOTR?qs=lc2O%252BfHJPVbD197C5c7oNw%3D%3D", "6-axis IMU (inertial measurement unit): always-on 3axis accelerometer and 3axis gyroscope", "https://www.st.com/resource/en/datasheet/lsm6dso.pdf", "0.86 mm"
+END_PART
+
+END.

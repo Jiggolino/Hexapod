@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-250-8-36CKM-TR3
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2022-02-02 15:44:39
+Downloaded=2025-11-28 09:28:48
+3D=Y

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_528537"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-04-08-07:22:44)
+    (utime 2024-03-18-13:06:02)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BZT585B3V3T-7")
+)
+
+
+(pinAssign "ECS_528537"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-04-08-07:22:44)
+    (utime 2024-03-18-13:06:02)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_528537")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BZT585B3V3T-7")
+)
+
+
+(part "BZT585B3V3T-7"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-04-08-07:22:44)
+    (utime 2024-03-18-13:06:02)
+    (packageRef "BZT585B3V3T-7")
+    (pinAssignRef "ECS_528537")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diodes Inc BZT585B3V3T-7 Zener Diode, 3.3V +/-2% 350 mW SMT 2-Pin SOD-523")
+    (property "Mouser_Part_Number" "621-BZT585B3V3T-7")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BZT585B3V3T-7?qs=bLNvM6dkO6SLQKLMisQhRA%3D%3D")
+    (property "Manufacturer_Name" "Diodes Incorporated")
+    (property "Manufacturer_Part_Number" "BZT585B3V3T-7")
+    (property "Datasheet_Link" "https://www.diodes.com//assets/Datasheets/BZT585BxVxT.pdf")
+    (property "compAreaTopHeight" 0.65)
+)
+
+

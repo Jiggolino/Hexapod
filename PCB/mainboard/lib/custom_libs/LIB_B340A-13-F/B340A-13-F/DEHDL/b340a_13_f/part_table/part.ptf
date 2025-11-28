@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B340A_13_F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "TKNEE", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "IF", "IR", "RJA", "BV", "IPEAK";
+{========================================================================================}
+ "Diodes Incorporated", "B340A-13-F" (!) = "", "DIOM5226X240N", "Diodes Moulded", "621-B340A-F", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B340A-13-F?qs=aLaTXeBcTP9fj%2FYKVo6Q1A%3D%3D", "Schottky Diode 3A 40V 0.5Vf SMA Diodes Inc B340A-13-F, SMT Schottky Diode, 40V 3A, 2-Pin DO-214AC", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-305/73551.pdf", "2.4 mm", "150", "", "", "850m", "", "SCHOTTKY SMD", "SMA", "3", "", "140", "40", "80"
+END_PART
+
+END.

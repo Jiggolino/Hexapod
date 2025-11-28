@@ -1,0 +1,16 @@
+.434121025816 :1 ;WS-TASV Tact Switch 6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R
+"434121050816"
+*STM S
+*NGS
+*PLB 1="COM" 2="NO"
+*MXP 2
+*DFN 434121025816
+~!Mouser Part Number (710-434121025816)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (434121025816)
+~!Link Datasheet (https://www.we-online.com/catalog/datasheet/434121025816.pdf)
+~!Height (5mm)
+~!3D_Model (434121025816)
+"434121025816"
+1.1!U 2.1!U 

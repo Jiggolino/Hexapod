@@ -1,0 +1,16 @@
+.BZT585B3V3T-7 :1 ;Diodes Inc BZT585B3V3T-7 Zener Diode, 3.3V +/-2% 350 mW SMT 2-Pin SOD-523
+SODFL1608X65N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN BZT585B3V3T-7
+~!Mouser Part Number (621-BZT585B3V3T-7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BZT585B3V3T-7?qs=bLNvM6dkO6SLQKLMisQhRA%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (BZT585B3V3T-7)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/BZT585BxVxT.pdf)
+~!Height (0.65mm)
+~!3D_Model (BZT585B3V3T-7)
+BZT585B3V3T-7
+1.1!U 2.1!U 

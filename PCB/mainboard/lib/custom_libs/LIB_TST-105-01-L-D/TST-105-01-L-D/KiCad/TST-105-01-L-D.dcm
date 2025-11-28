@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TST-105-01-L-D
+D 10 Position, Shrouded PCB Headers, 0.100&quot; pitch
+K
+F http://suddendocs.samtec.com/prints/tst-1xx-xx-x-x-xx-xx-mkt.pdf
+$ENDCMP
+#
+#End Doc Library

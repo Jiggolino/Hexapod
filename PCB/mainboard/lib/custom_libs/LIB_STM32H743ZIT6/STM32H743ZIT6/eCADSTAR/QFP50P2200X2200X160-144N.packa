@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STM32H743ZIT6"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-08-27-16:41:31)
+    (mountForm default
+        (footprintRef "QFP50P2200X2200X160-144N")
+        (spec "System")
+    )
+)

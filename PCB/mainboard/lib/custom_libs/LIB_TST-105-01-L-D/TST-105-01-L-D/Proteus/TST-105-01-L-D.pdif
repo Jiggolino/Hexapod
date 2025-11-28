@@ -1,0 +1,152 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TST-105-01-L-D"
+   (description "10 Position, Shrouded PCB Headers, 0.100&quot; pitch")
+   (family "CON")
+   (package "TST-105-XX-Y-D")
+   (attribute "Datasheet Link" "http://suddendocs.samtec.com/prints/tst-1xx-xx-x-x-xx-xx-mkt.pdf")
+   (attribute "Mouser Part Number" "200-TST10501LD")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TST-105-01-L-D?qs=rU5fayqh%252BE3T4XEa6zyGyQ%3D%3D")
+   (attribute "Manufacturer_Name" "SAMTEC")
+   (attribute "Manufacturer_Part_Number" "TST-105-01-L-D")
+   (gate
+    (symbol "TST-105-01-L-D")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+    (pin "9" 9 PS)
+    (pin "10" 10 PS)
+   )
+  )
+  (symbol "TST-105-01-L-D"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TST-105-XX-Y-D"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5.08 5.905)
+      (pt 15.24 5.905)
+      (pt 15.24 -3.365)
+      (pt -5.08 -3.365)
+      (pt -5.08 5.905))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.08 5.905)
+      (pt 15.24 5.905)
+      (pt 15.24 -3.365)
+      (pt -5.08 -3.365)
+      (pt -5.08 5.905))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -0.05 -3.75) (pt 0.05 -3.75)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -6.28 7.105)
+      (pt 16.44 7.105)
+      (pt 16.44 -4.85)
+      (pt -6.28 -4.85)
+      (pt -6.28 7.105))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt 0 2.54) (padstack 0))
+   (leg 3 (pt 2.54 0) (padstack 0))
+   (leg 4 (pt 2.54 2.54) (padstack 0))
+   (leg 5 (pt 5.08 0) (padstack 0))
+   (leg 6 (pt 5.08 2.54) (padstack 0))
+   (leg 7 (pt 7.62 0) (padstack 0))
+   (leg 8 (pt 7.62 2.54) (padstack 0))
+   (leg 9 (pt 10.16 0) (padstack 0))
+   (leg 10 (pt 10.16 2.54) (padstack 0))
+   (padstack 0
+    (hole 1.02)
+    (plated true)
+    (pad (layer TCOP) (round 1.55))
+    (pad (layer INNER) (round 1.55))
+    (pad (layer BCOP) (round 1.55))
+   )
+   (model "TST-105-01-L-D.stp"
+    (euler -90 180 180)
+    (offset 5.079999923706055 1.2699999809265137 2.3499999046325684)
+   )
+  )
+ )
+)

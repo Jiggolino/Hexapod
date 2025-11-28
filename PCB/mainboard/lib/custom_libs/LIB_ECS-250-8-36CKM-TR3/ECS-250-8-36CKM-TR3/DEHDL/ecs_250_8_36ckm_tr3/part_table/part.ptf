@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ECS_250_8_36CKM_TR3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ECS", "ECS-250-8-36CKM-TR3" (!) = "", "ECS250836CKMTR3", "Other", "520-250-8-36CKM-TR3", "https://www.mouser.co.uk/ProductDetail/ECS/ECS-250-8-36CKM-TR3?qs=e8oIoAS2J1SEILtnBWQaUQ%3D%3D", "Crystals 25MHz,CL 8,TOL +/-10 ppm,STAB +/-10 ppm,-20 +70 C,ESR O60", "", "0.6 mm"
+END_PART
+
+END.

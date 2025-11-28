@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BZT585B3V3T_7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "BZT585B3V3T-7" (!) = "", "SODFL1608X65N", "Small Outline Diode Flat Lead", "621-BZT585B3V3T-7", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BZT585B3V3T-7?qs=bLNvM6dkO6SLQKLMisQhRA%3D%3D", "Diodes Inc BZT585B3V3T-7 Zener Diode, 3.3V +/-2% 350 mW SMT 2-Pin SOD-523", "https://www.diodes.com//assets/Datasheets/BZT585BxVxT.pdf", "0.65 mm"
+END_PART
+
+END.

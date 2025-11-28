@@ -1,0 +1,16 @@
+.LSM6DSOTR :1 ;6-axis IMU (inertial measurement unit): always-on 3axis accelerometer and 3axis gyroscope
+LSM6DS3USTR
+*STM AC
+*NGS
+*PLB 1="SDO/SA0" 2="SDX" 3="SCX" 4="INT1" 5="VDDIO" 6="GND_1" 7="GND_2" 8="VDD" 9="INT2" 10="OCS_AUX" 11="SDO_AUX" 12="CS" 13="SCL" 14="SDA"
+*MXP 14
+*DFN LSM6DSOTR
+~!Mouser Part Number (511-LSM6DSOTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM6DSOTR?qs=lc2O%252BfHJPVbD197C5c7oNw%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LSM6DSOTR)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/lsm6dso.pdf)
+~!Height (0.86mm)
+~!3D_Model (LSM6DSOTR)
+LSM6DSOTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

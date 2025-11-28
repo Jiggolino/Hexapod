@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZT585B3V3T-7
+D Diodes Inc BZT585B3V3T-7 Zener Diode, 3.3V +/-2% 350 mW SMT 2-Pin SOD-523
+K
+F https://www.diodes.com//assets/Datasheets/BZT585BxVxT.pdf
+$ENDCMP
+#
+#End Doc Library

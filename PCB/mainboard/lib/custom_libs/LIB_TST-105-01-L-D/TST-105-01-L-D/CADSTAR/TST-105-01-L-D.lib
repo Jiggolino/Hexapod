@@ -1,0 +1,16 @@
+.TST-105-01-L-D :1 ;10 Position, Shrouded PCB Headers, 0.100&quot; pitch
+TST-105-XX-Y-D
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10"
+*MXP 10
+*DFN TST-105-01-L-D
+~!Mouser Part Number (200-TST10501LD)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Samtec/TST-105-01-L-D?qs=rU5fayqh%252BE3T4XEa6zyGyQ%3D%3D)
+~!Manufacturer_Name (SAMTEC)
+~!Manufacturer_Part_Number (TST-105-01-L-D)
+~!Link Datasheet (http://suddendocs.samtec.com/prints/tst-1xx-xx-x-x-xx-xx-mkt.pdf)
+~!Height (-)
+~!3D_Model (TST-105-01-L-D)
+TST-105-01-L-D
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

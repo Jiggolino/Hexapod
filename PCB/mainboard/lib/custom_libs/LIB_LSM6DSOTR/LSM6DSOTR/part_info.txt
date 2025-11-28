@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=LSM6DSOTR
+PartCategory=Accelerometer
+PackageCategory=Other
+PinCount=14
+Version=2.2
+Released=2018-11-23 11:03:51
+Downloaded=2025-11-28 09:22:39
+3D=Y

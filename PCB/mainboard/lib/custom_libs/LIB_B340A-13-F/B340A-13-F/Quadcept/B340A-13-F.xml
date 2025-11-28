@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/235031/1803662/2.50/2/3/Diode/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r235_155" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="61.023622047243" height="92.519685039369" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="68.897637795275" height="100.3937007874" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="61.023622047243" height="92.519685039369" />
+  </padstyle>
+  <footprint name="DIOM5226X240N" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r235_155" originx="-84.645669291338" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="r235_155" originx="84.645669291338" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-140.74803149606" originy="67.322834645668" endx="140.74803149606" endy="67.322834645668" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="140.74803149606" originy="67.322834645668" endx="140.74803149606" endy="-67.322834645668" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="140.74803149606" originy="-67.322834645668" endx="-140.74803149606" endy="-67.322834645668" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-140.74803149606" originy="-67.322834645668" endx="-140.74803149606" endy="67.322834645668" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="-102.28346456693" originy="51.259842519684" endx="102.28346456693" endy="51.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="102.28346456693" originy="51.259842519684" endx="102.28346456693" endy="-51.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="102.28346456693" originy="-51.259842519684" endx="-102.28346456693" endy="-51.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-102.28346456693" originy="-51.259842519684" endx="-102.28346456693" endy="51.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-102.28346456693" originy="20.787401574803" endx="-71.732283464566" endy="51.259842519684" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="102.28346456693" originy="51.259842519684" endx="-115.15748031496" endy="51.259842519684" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-102.28346456693" originy="-51.259842519684" endx="102.28346456693" endy="-51.259842519684" width="7.8740157480314" />
+  </footprint>
+  <symbol name="B340A-13-F" originx="0" originy="0">
+    <line originx="200" originy="100" endx="200" endy="-100" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="400" originy="0" endx="500" endy="0" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="140" originy="10" style="Default" rotation="0" justify="left" flipped="False" hidden="True" data="K" />
+      <text name="pindes" originx="60" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="500" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="460" originy="10" style="Default" rotation="0" justify="right" flipped="False" hidden="True" data="A" />
+      <text name="pindes" originx="540" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="200" y="0" />
+      <point x="400" y="100" />
+      <point x="400" y="-100" />
+    </polygon>
+  </symbol>
+  <component name="B340A-13-F" designatorprefix="D" height="94.488188976377" footprint="DIOM5226X240N">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="K" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A" />
+    <attached_symbol gate="1" name="B340A-13-F" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-305/73551.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Schottky Diode 3A 40V 0.5Vf SMA Diodes Inc B340A-13-F, SMT Schottky Diode, 40V 3A, 2-Pin DO-214AC" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="621-B340A-F" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B340A-13-F?qs=aLaTXeBcTP9fj%2FYKVo6Q1A%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Diodes Incorporated" />
+    <text name="Manufacturer_Part_Number" originx="450" originy="100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="B340A-13-F" />
+  </component>
+</quadcept_library>
