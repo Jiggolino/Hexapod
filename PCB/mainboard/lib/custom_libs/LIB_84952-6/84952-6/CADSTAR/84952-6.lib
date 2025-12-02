@@ -1,0 +1,16 @@
+.84952-6 :1 ;Body Features: Primary Product Color Natural | Configuration Features: PCB Mount Orientation Right Angle | Compatible With Wire & Cable Type FPC | Compatible With Wire & Cable Type FFC | Number of Positions 6 | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2 MICM | Contact Mating Area Plating Material Thickness 2 MICM | Contact Current Rating (Max) 1 AMP | Contact Shape & Form Single Beam | PCB Contact Termination Area
+"849526"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN 84952-6
+~!Mouser Part Number (571-84952-6)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/84952-6?qs=uUkeXfjQ8uRheCYN9AcwcA%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (84952-6)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773461-0_Standard_FPC_Connectors_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=84952-6&DocFormat=pdf)
+~!Height (2.12mm)
+~!3D_Model (84952-6)
+"84952-6"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

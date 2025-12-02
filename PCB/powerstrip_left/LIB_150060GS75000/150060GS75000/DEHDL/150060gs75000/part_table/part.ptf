@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '150060GS75000'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "150060GS75000" (!) = "", "LEDC1608X70N", "LEDs Chip", "710-150060GS75000", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D", "WL-SMCW SMT Mono-Color Chip LED Waterclear 0603, Green Typ.(@20mA): 520nm, 430mcd, 3.2V, 140 InGaN", "https://www.we-online.com/catalog/datasheet/150060GS75000.pdf", "0.7 mm"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "F52R-1A7H1-11008"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-11-03-14:53:14)
+    (mountForm default
+        (footprintRef "F52R1A7H111008")
+        (spec "System")
+    )
+)

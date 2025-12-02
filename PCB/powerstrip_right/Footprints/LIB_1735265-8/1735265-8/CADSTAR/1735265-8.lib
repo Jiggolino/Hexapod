@@ -1,0 +1,17 @@
+.1735265-8 :1 ;Body Features: Primary Product Color Natural | Configuration Features: Compatible With Wire & Cable Type FFC | Number of Positions 8 | Number of Rows 1 | PCB Mount Orientation Right Angle | Compatible With Wire & Cable Type FPC | Contact Features: Contact Mating Location Bottom | Contact Mating Area Plating Material Thickness 2 MICIN | Contact Shape & Form Standard Flat | Contact Mating Area Plating Material Gold | Contact Type Socket | Contact Base Material Phosphor Bronze | PCB Contact Termination Area Pl
+"17352658"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=MP1 10=MP2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="MP1" 10="MP2"
+*MXP 10
+*DFN 1735265-8
+~!Mouser Part Number (571-1735265-8)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1735265-8?qs=vkMqrgFpRajjm%252BbPDw7SSA%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (1735265-8)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773959-7-FPC-Connectors-CN&DocType=Data%20Sheet&DocLang=Chinese (Simplified)&PartCntxt=1735265-8&DocFormat=pdf)
+~!Height (2.74mm)
+~!3D_Model (1735265-8)
+"1735265-8"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

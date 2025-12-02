@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Communications Solutions
+PartNumber=F52R-1A7H1-11008
+PartCategory=Connector
+PackageCategory=Other
+PinCount=12
+Version=3.3
+Released=2022-06-20 11:50:06
+Downloaded=2025-12-01 12:38:17
+3D=Y

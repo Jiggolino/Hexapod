@@ -1,0 +1,16 @@
+.150060GS75000 :1 ;WL-SMCW SMT Mono-Color Chip LED Waterclear 0603, Green Typ.(@20mA): 520nm, 430mcd, 3.2V, 140 InGaN
+LEDC1608X70N
+*STM LED
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 150060GS75000
+~!Mouser Part Number (710-150060GS75000)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (150060GS75000)
+~!Link Datasheet (https://www.we-online.com/catalog/datasheet/150060GS75000.pdf)
+~!Height (0.7mm)
+~!3D_Model (150060GS75000)
+"150060GS75000"
+1.1!U 2.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MGAH06033R3M_10'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Laird Performance Materials", "MGAH06033R3M-10" (!) = "", "INDPM7066X310N", "Inductors Precision Moulded", "739-MGAH06033R3M-10", "https://www.mouser.co.uk/ProductDetail/Laird-Performance-Materials/MGAH06033R3M-10?qs=By6Nw2ByBD2mXVegrURTAA%3D%3D", "", "", "Power Inductors - SMD 3.3uH 0.03ohm 9.5A", "https://www.mouser.fr/datasheet/2/987/MGAH0603_2520Series-3043308.pdf", "3.1 mm"
+END_PART
+
+END.

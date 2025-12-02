@@ -1,0 +1,17 @@
+.F52R-1A7H1-11008 :1 ;Flex Connector, 1.00mm Pitch, Height 2.00mm, Right angle, Slider type, ZIF, Bottom contact, 8 position , Without MYLAR
+F52R1A7H111008
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=MP1 10=MP2 11=MP3 12=MP4
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="MP1" 10="MP2" 11="MP3" 12="MP4"
+*MXP 12
+*DFN F52R-1A7H1-11008
+~!Mouser Part Number (649-F52R-1A7H1-11008)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-Aorora/F52R-1A7H1-11008?qs=xZ%2FP%252Ba9zWqZEjx1hhk5Q2Q%3D%3D)
+~!Manufacturer_Name (Amphenol Communications Solutions)
+~!Manufacturer_Part_Number (F52R-1A7H1-11008)
+~!Link Datasheet (https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f52r.pdf)
+~!Height (2.25mm)
+~!3D_Model (F52R-1A7H1-11008)
+F52R-1A7H1-11008
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

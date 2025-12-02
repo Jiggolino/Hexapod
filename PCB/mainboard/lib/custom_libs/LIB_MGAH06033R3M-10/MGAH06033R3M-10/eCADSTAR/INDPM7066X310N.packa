@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MGAH06033R3M-10"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-01-25-03:54:23)
+    (mountForm default
+        (footprintRef "INDPM7066X310N")
+        (spec "System")
+    )
+)

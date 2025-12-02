@@ -2171,6 +2171,28 @@
 		)
 		(uuid "ff0186eb-0baa-4b27-8b32-1cc93a36c2e8")
 	)
+	(global_label "PH 3.3"
+		(shape input)
+		(at 146.05 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "00866d93-b8cc-44ee-b314-766b246115fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 62.5007 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 76.2 71.12 180)

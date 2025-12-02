@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "F52R1A7H111008"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "F52R1A7H111008")
+        (spec "default")
+    )
+)

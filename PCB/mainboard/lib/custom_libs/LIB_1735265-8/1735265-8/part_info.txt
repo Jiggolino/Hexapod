@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1735265-8
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=3.3
+Released=2021-12-21 07:17:16
+Downloaded=2025-12-01 12:41:48
+3D=Y

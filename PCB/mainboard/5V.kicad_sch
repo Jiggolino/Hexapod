@@ -2183,6 +2183,28 @@
 			)
 		)
 	)
+	(global_label "PH 5"
+		(shape input)
+		(at 166.37 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "61a0cb07-9310-40bb-a8b6-b5aea63ef614")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 71.7536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 99.06 88.9 0)
@@ -3932,7 +3954,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f409954-df90-46e3-bc44-cecb8e939dcf")
+			(uuid "1f409954-df90-46e3-bc44-cecb8e939dd0")
 		)
 		(instances
 			(project ""
