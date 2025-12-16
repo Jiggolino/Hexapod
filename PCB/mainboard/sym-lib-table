@@ -13,4 +13,5 @@
   (lib (name "TPS5430DDA")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_TPS5430DDA/TPS5430DDA/KiCad/TPS5430DDA.kicad_sym")(options "")(descr ""))
   (lib (name "TST-105-01-L-D")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_TST-105-01-L-D/TST-105-01-L-D/KiCad/TST-105-01-L-D.kicad_sym")(options "")(descr ""))
   (lib (name "MGAH06033R3M-10")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/MGAH06033R3M-10/MGAH06033R3M-10.kicad_sym")(options "")(descr ""))
+  (lib (name "TPSM863252RDXR")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/TPSM863252RDXR/TPSM863252RDXR.kicad_sym")(options "")(descr ""))
 )

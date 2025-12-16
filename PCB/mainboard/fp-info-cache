@@ -1,4 +1,4 @@
-26799428551120441
+26802958426757391
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106393,6 +106393,13 @@ Filter
 2
 2
 lib
+C4532_Commercial
+C4532_Commercial
+Capacitor
+0
+2
+2
+lib
 CM7V32768TBQA020
 CM7V-T1A
 Crystal or Oscillator
@@ -106476,3 +106483,10 @@ Connector
 0
 10
 10
+lib
+VREG_TPSM863252RDXR
+
+
+0
+19
+19

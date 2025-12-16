@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_320478"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-06-17-11:57:14)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "C4532X5R1C336M250KA")
+)
+
+
+(pinAssign "ECS_320478"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-06-17-11:57:14)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_320478")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "C4532X5R1C336M250KA")
+)
+
+
+(part "C4532X5R1C336M250KA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-06-17-11:57:14)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "C4532X5R1C336M250KA")
+    (pinAssignRef "ECS_320478")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)")
+    (property "Mouser_Part_Number" "810-C4532X5R1C336M")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C4532X5R1C336M250KA?qs=NRhsANhppD8boSYbSECPsw%3D%3D")
+    (property "Manufacturer_Name" "TDK")
+    (property "Manufacturer_Part_Number" "C4532X5R1C336M250KA")
+    (property "Datasheet_Link" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf")
+    (property "compAreaTopHeight" 2.2)
+)
+
+

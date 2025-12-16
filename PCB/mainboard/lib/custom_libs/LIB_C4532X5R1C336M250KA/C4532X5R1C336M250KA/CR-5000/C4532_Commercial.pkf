@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "C4532_Commercial"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "C4532_Commercial")
+        (spec "default")
+    )
+)

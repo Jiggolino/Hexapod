@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1735265_8'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1735265-8" (!) = "", "17352658", "Other", "571-1735265-8", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1735265-8?qs=vkMqrgFpRajjm%252BbPDw7SSA%3D%3D", "Body Features: Primary Product Color Natural | Configuration Features: Compatible With Wire & Cable Type FFC | Number of Positions 8 | Number of Rows 1 | PCB Mount Orientation Right Angle | Compatible With Wire & Cable Type FPC | Contact Features: Contact Mating Location Bottom | Contact Mating Area Plating Material Thickness 2 MICIN | Contact Shape & Form Standard Flat | Contact Mating Area Plating Material Gold | Contact Type Socket | Contact Base Material Phosphor Bronze | PCB Contact Termination Area Pl", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773959-7-FPC-Connectors-CN&DocType=Data%20Sheet&DocLang=Chinese (Simplified)&PartCntxt=1735265-8&DocFormat=pdf", "2.74 mm"
+END_PART
+
+END.
