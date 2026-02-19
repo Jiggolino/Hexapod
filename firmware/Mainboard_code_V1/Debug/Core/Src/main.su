@@ -1,0 +1,17 @@
+../Core/Src/main.c:76:9:platform_write	40	static
+../Core/Src/main.c:81:9:platform_read	40	static
+../Core/Src/main.c:87:5:_write	24	static
+../Core/Src/main.c:92:6:setServoAngle	24	static
+../Core/Src/main.c:107:6:processSerialCommand	40	static
+../Core/Src/main.c:130:6:updateLEDActivity	16	static
+../Core/Src/main.c:142:5:main	40	static
+../Core/Src/main.c:242:6:SystemClock_Config	120	static
+../Core/Src/main.c:296:6:PeriphCommonClock_Config	200	static
+../Core/Src/main.c:323:13:MX_ADC1_Init	48	static
+../Core/Src/main.c:392:13:MX_ADC2_Init	40	static
+../Core/Src/main.c:452:13:MX_ADC3_Init	40	static
+../Core/Src/main.c:512:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:560:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:608:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:705:6:MPU_Config	24	static
+../Core/Src/main.c:736:6:Error_Handler	4	static,ignoring_inline_asm
