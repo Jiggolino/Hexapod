@@ -18,40 +18,20 @@
 #include "pca9685.h"
 /* USER CODE END Includes */
 
-/* Private typedef -----------------------------------------------------------*/
-/* USER CODE BEGIN PTD */
-
-/* USER CODE END PTD */
-
-/* Private define ------------------------------------------------------------*/
-/* USER CODE BEGIN PD */
-#define LSM6DSO_I2C_ADDR 0xD4
-/* USER CODE END PD */
-
-/* Private macro -------------------------------------------------------------*/
-/* USER CODE BEGIN PM */
-
-/* USER CODE END PM */
-
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
 ADC_HandleTypeDef hadc2;
 ADC_HandleTypeDef hadc3;
-
 I2C_HandleTypeDef hi2c1;
-
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
-// PCA9685 Handles
 pca9685_handle_t pca_Right;
 pca9685_handle_t pca_Left;
 
-// Serial Parser Variables
 char uart_rx_buffer[32];
 uint8_t rx_index = 0;
 uint8_t rx_byte;
-
 uint32_t last_rx_time = 0;
 /* USER CODE END PV */
 
@@ -65,14 +45,76 @@ static void MX_ADC1_Init(void);
 static void MX_ADC2_Init(void);
 static void MX_ADC3_Init(void);
 static void MX_I2C1_Init(void);
+
 /* USER CODE BEGIN PFP */
 void setServoAngle(char side, uint8_t index, float angle);
 void processSerialCommand(char* str);
+void updateLEDActivity(void);
 /* USER CODE END PFP */
 
-/* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-// --- IMU PLATFORM FUNCTIONS ---
+
+void PCA9685_CheckPresence(uint8_t addr, char* name) {
+    uint8_t reg = 0x00; // MODE1 Register
+    uint8_t response = 0;
+
+    // Try to read 1 byte from register 0x00
+    HAL_StatusTypeDef status = HAL_I2C_Mem_Read(&hi2c1, addr, reg, I2C_MEMADD_SIZE_8BIT, &response, 1, 500);
+
+    if (status == HAL_OK) {
+        printf("SUCCESS: %s found at 0x%02X. Response: 0x%02X\r\n", name, addr, response);
+    } else {
+        printf("FAILED: %s NOT found at 0x%02X! Check wiring/power.\r\n", name, addr);
+        printf("Scanning I2C bus...\r\n");
+        for (uint16_t i = 0; i < 128; i++) {
+            if (HAL_I2C_IsDeviceReady(&hi2c1, (uint16_t)(i << 1), 3, 5) == HAL_OK) {
+                printf("Device found at 7-bit: 0x%02X (8-bit: 0x%02X)\r\n", i, (i << 1));
+            }
+        }
+        printf("Scan complete.\r\n");
+    }
+}
+
+#define PCA9685_MODE1 0x00
+#define PCA9685_PRESCALE 0xFE
+#define LED0_ON_L 0x06
+
+void PCA_Init(I2C_HandleTypeDef *hi2c, uint8_t addr) {
+    uint8_t buf[2];
+
+    // 1. Reset & Wake Up: Set Mode1 to 0x20 (Auto-Increment)
+    buf[0] = PCA9685_MODE1;
+    buf[1] = 0x20;
+    HAL_I2C_Master_Transmit(hi2c, addr, buf, 2, 100);
+
+    // 2. Set Frequency to 50Hz
+    // Formula: floor(25MHz / (4096 * freq)) - 1 = 121
+    buf[0] = PCA9685_MODE1;
+    buf[1] = 0x30; // Sleep to set prescaler
+    HAL_I2C_Master_Transmit(hi2c, addr, buf, 2, 100);
+
+    buf[0] = PCA9685_PRESCALE;
+    buf[1] = 121;  // 50Hz
+    HAL_I2C_Master_Transmit(hi2c, addr, buf, 2, 100);
+
+    buf[0] = PCA9685_MODE1;
+    buf[1] = 0x20; // Wake up
+    HAL_I2C_Master_Transmit(hi2c, addr, buf, 2, 100);
+    HAL_Delay(5);
+}
+
+void PCA_SetPWM(I2C_HandleTypeDef *hi2c, uint8_t addr, uint8_t channel, uint16_t value) {
+    uint8_t buf[5];
+    buf[0] = LED0_ON_L + (4 * channel); // Start register for this channel
+    buf[1] = 0x00; // ON Time Low
+    buf[2] = 0x00; // ON Time High
+    buf[3] = value & 0xFF;        // OFF Time Low
+    buf[4] = (value >> 8) & 0x0F; // OFF Time High
+    HAL_I2C_Master_Transmit(hi2c, addr, buf, 5, 100);
+}
+
+#define LSM6DSO_I2C_ADDR 0xD4
+
 int32_t platform_write(void *handle, uint8_t reg, const uint8_t *bufp, uint16_t len) {
     HAL_I2C_Mem_Write((I2C_HandleTypeDef*)handle, LSM6DSO_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, (uint8_t *)bufp, len, 100);
     return 0;
@@ -83,7 +125,6 @@ int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp, uint16_t len) {
     return 0;
 }
 
-// --- PRINTF REDIRECT ---
 int _write(int file, char *ptr, int len) {
     HAL_UART_Transmit(&huart1, (uint8_t*)ptr, len, HAL_MAX_DELAY);
     return len;
@@ -93,44 +134,36 @@ void setServoAngle(char side, uint8_t index, float angle) {
     if (angle < 0.0f) angle = 0.0f;
     if (angle > 180.0f) angle = 180.0f;
 
-    uint16_t val = (uint16_t)((angle / 180.0f) * (1638 - 819)) + 819;
+    // Formula for 50Hz: 0.5ms (102) to 2.5ms (512)
+    uint16_t val = (uint16_t)((angle / 180.0f) * (512 - 102)) + 102;
 
     if (side == 'R' || side == 'r') {
-        // Change from PCA9685_SetPwm to this:
         pca9685_set_channel_pwm_times(&pca_Right, index - 1, 0, val);
     } else if (side == 'L' || side == 'l') {
-        // Change from PCA9685_SetPwm to this:
         pca9685_set_channel_pwm_times(&pca_Left, index - 1, 0, val);
     }
 }
 
 void processSerialCommand(char* str) {
-    // 1. Ignore empty strings (fixes the \r\n double-trigger)
-    if (strlen(str) < 3) {
-        return;
-    }
-
+    if (strlen(str) < 3) return;
     char side;
     int index;
     float angle;
 
-    // 2. Add a space before %c to skip any leading accidental whitespace
     if (sscanf(str, " %c%d %f", &side, &index, &angle) == 3) {
-        if (index >= 1 && index <= 9) {
+        if (index >= 1 && index <= 16) {
             setServoAngle(side, (uint8_t)index, angle);
             printf("OK: %c%d set to %.1f\r\n", side, index, angle);
         } else {
-            printf("ERR: Index 1-9 only\r\n");
+            printf("ERR: Index 1-16 only\r\n");
         }
     } else {
-        printf("ERR: Format 'R1 90' (Received: %s)\r\n", str);
+        printf("ERR: Format 'R1 90'\r\n");
     }
 }
 
 void updateLEDActivity(void) {
     uint32_t currentTime = HAL_GetTick();
-
-    // Check if we are within the 200ms window of the last received byte
     if ((currentTime - last_rx_time) < 200) {
         HAL_GPIO_WritePin(GPIOE, LED_GREEN_Pin | LED_RED_Pin, GPIO_PIN_RESET);
     } else {
@@ -143,11 +176,9 @@ int main(void)
 {
   MPU_Config();
   HAL_Init();
-  setvbuf(stdout, NULL, _IONBF, 0);
   SystemClock_Config();
   PeriphCommonClock_Config();
 
-  /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   MX_ADC1_Init();
@@ -158,82 +189,46 @@ int main(void)
   /* USER CODE BEGIN 2 */
   setvbuf(stdout, NULL, _IONBF, 0);
 
-  // 1. IMU Initialization
-  stmdev_ctx_t imu_ctx;
-  imu_ctx.write_reg = platform_write;
-  imu_ctx.read_reg  = platform_read;
-  imu_ctx.handle    = &hi2c1;
+  HAL_GPIO_WritePin(Right_Enable_GPIO_Port, Right_Enable_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(Left_Enable_GPIO_Port, Left_Enable_Pin, GPIO_PIN_RESET);
 
-  uint8_t whoami = 0;
-  HAL_GPIO_WritePin(GPIOD, XSHUT_Pin, GPIO_PIN_SET); // Wake IMU
-  HAL_Delay(50);
-  lsm6dso_device_id_get(&imu_ctx, &whoami);
+  // Initialize both boards
+    PCA_Init(&hi2c1, 0xC0);
+    PCA_Init(&hi2c1, 0x80);
+    setvbuf(stdout, NULL, _IONBF, 0);
+      printf("\r\n--- Starting PCA9685 Hardware Check ---\r\n");
 
-  if (whoami == LSM6DSO_ID) {
-      printf("IMU Online!\r\n");
-      lsm6dso_reset_set(&imu_ctx, PROPERTY_ENABLE);
-      HAL_Delay(50);
-      lsm6dso_xl_data_rate_set(&imu_ctx, LSM6DSO_XL_ODR_104Hz);
-      lsm6dso_gy_data_rate_set(&imu_ctx, LSM6DSO_GY_ODR_104Hz);
-  }
+      // Check Right Board (0x60 -> 0xC0)
+      PCA9685_CheckPresence(0xC0, "Right Board");
 
-  // 2. PCA9685 Initialization
-  pca_Right.i2c_handle = &hi2c1;
-  pca_Right.device_address = 0x80;
-  pca9685_init(&pca_Right);
-  pca9685_set_pwm_frequency(&pca_Right, 200);
+      // Check Left Board (0x70 -> 0xE0)
+      PCA9685_CheckPresence(0x80, "Left Board");
 
-  pca_Left.i2c_handle = &hi2c1;
-  pca_Left.device_address = 0xC0;
-  pca9685_init(&pca_Left);
-  pca9685_set_pwm_frequency(&pca_Left, 200);
+      // Now proceed with actual Init if you want
+      PCA_Init(&hi2c1, 0xC0);
+      PCA_Init(&hi2c1, 0x80);
 
-  printf("System Ready. Commands: 'R1 90' or 'L5 180'\r\n");
+      printf("--- Check Complete ---\r\n");
 
-  for (uint8_t i = 0; i < 16; i++) {
-      // We use i as the channel index (0-15)
-      // 90.0f is the center angle
-      pca9685_set_channel_pwm_times(&pca_Right, i, 0, 1228); // 1228 is the 'val' for 90 deg at 200Hz
-      pca9685_set_channel_pwm_times(&pca_Left, i, 0, 1228);
-  }
-
-  printf("Initialization complete: 32 channels homed to 90°\r\n");
+   printf("Manual PCA Init Complete\r\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
   while (1)
   {
-    // --- PART 1: SERIAL PARSING ---
-    if (HAL_UART_Receive(&huart1, &rx_byte, 1, 0) == HAL_OK) {
-    	last_rx_time = HAL_GetTick();
-        HAL_UART_Transmit(&huart1, &rx_byte, 1, 10); // Echo
-        if (rx_byte == '\r' || rx_byte == '\n') {
-            uart_rx_buffer[rx_index] = '\0';
-            printf("\r\n");
-            processSerialCommand(uart_rx_buffer);
-            rx_index = 0;
-        } else if (rx_index < 31) {
-            uart_rx_buffer[rx_index++] = rx_byte;
-        }
-    }
-
-    // --- PART 2: IMU READING ---
-//    lsm6dso_status_reg_t status;
-//    lsm6dso_status_reg_get(&imu_ctx, &status);
-//    if (status.xlda && status.gda) {
-//        int16_t data_raw_accel[3];
-//        lsm6dso_acceleration_raw_get(&imu_ctx, data_raw_accel);
-//        // Add your IMU processing logic here if needed
-//    }
-    updateLEDActivity();
-
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
+      /* USER CODE BEGIN WHILE */
+	  for (int i = 0; i < 16; i++) {
+	          // Use the addresses that actually passed the SUCCESS check
+	          PCA_SetPWM(&hi2c1, 0xC0, i, 307); // Board 1
+	          PCA_SetPWM(&hi2c1, 0x80, i, 307); // Board 2
+	      }
+	      HAL_GPIO_TogglePin(GPIOE, LED_GREEN_Pin);
+	      HAL_Delay(100);
+      /* USER CODE END WHILE */
   }
-  /* USER CODE END 3 */
 }
+
+// ... Keep the rest of your MX_ generated code below (SystemClock_Config, etc.)
 
 /**
   * @brief System Clock Configuration

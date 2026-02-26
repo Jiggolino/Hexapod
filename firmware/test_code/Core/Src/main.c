@@ -2,47 +2,22 @@
 /**
   ******************************************************************************
   * @file           : main.c
-  * @brief          : Main program body
+  * @brief          : I2C Address Scanner
   ******************************************************************************
   */
 /* USER CODE END Header */
+
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
-/* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */
 #include "stdio.h"
 #include <stdint.h>
-#include "lsm6dso_reg.h"
-/* USER CODE END Includes */
-
-/* Private typedef -----------------------------------------------------------*/
-/* USER CODE BEGIN PTD */
-
-/* USER CODE END PTD */
-
-/* Private define ------------------------------------------------------------*/
-/* USER CODE BEGIN PD */
-#define LSM6DSO_I2C_ADDR 0xD4
-/* USER CODE END PD */
-
-/* Private macro -------------------------------------------------------------*/
-/* USER CODE BEGIN PM */
-
-/* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
 ADC_HandleTypeDef hadc2;
 ADC_HandleTypeDef hadc3;
-
 I2C_HandleTypeDef hi2c1;
-
 UART_HandleTypeDef huart1;
-
-/* USER CODE BEGIN PV */
-
-/* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
@@ -54,26 +29,9 @@ static void MX_ADC1_Init(void);
 static void MX_ADC2_Init(void);
 static void MX_ADC3_Init(void);
 static void MX_I2C1_Init(void);
-/* USER CODE BEGIN PFP */
 
-/* USER CODE END PFP */
-
-/* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-int32_t platform_write(void *handle, uint8_t reg, const uint8_t *bufp, uint16_t len)
-{
-    HAL_I2C_Mem_Write((I2C_HandleTypeDef*)handle, LSM6DSO_I2C_ADDR, reg,
-                      I2C_MEMADD_SIZE_8BIT, (uint8_t *)bufp, len, 100);
-    return 0;
-}
-
-int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp, uint16_t len)
-{
-    HAL_I2C_Mem_Read((I2C_HandleTypeDef*)handle, LSM6DSO_I2C_ADDR, reg,
-                     I2C_MEMADD_SIZE_8BIT, bufp, len, 100);
-    return 0;
-}
-
+// Redirect printf to UART1
 int _write(int file, char *ptr, int len)
 {
     HAL_UART_Transmit(&huart1, (uint8_t*)ptr, len, HAL_MAX_DELAY);
@@ -81,29 +39,20 @@ int _write(int file, char *ptr, int len)
 }
 /* USER CODE END 0 */
 
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+  // Disable buffering for immediate printf output
   setvbuf(stdout, NULL, _IONBF, 0);
   /* USER CODE END 1 */
 
   MPU_Config();
   HAL_Init();
 
-  /* USER CODE BEGIN Init */
-  stmdev_ctx_t imu_ctx;
-  imu_ctx.write_reg = platform_write;
-  imu_ctx.read_reg  = platform_read;
-  imu_ctx.handle    = &hi2c1;
-  /* USER CODE END Init */
-
   SystemClock_Config();
   PeriphCommonClock_Config();
 
+  /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   MX_ADC1_Init();
@@ -112,51 +61,45 @@ int main(void)
   MX_I2C1_Init();
 
   /* USER CODE BEGIN 2 */
-  uint8_t whoami = 0;
-  int16_t data_raw_accel[3];
-  int16_t data_raw_gyro[3];
+  printf("\r\n--- I2C Scanner Starting ---\r\n");
+  printf("Scanning I2C1 bus...\r\n");
 
-  // Wake up sensor
-  HAL_GPIO_WritePin(GPIOD, XSHUT_Pin, GPIO_PIN_SET);
-  HAL_Delay(50);
+  uint8_t devices_found = 0;
+  HAL_StatusTypeDef result;
 
-  // Check Connection and basic init
-  lsm6dso_device_id_get(&imu_ctx, &whoami);
-  if (whoami == LSM6DSO_ID) {
-      printf("LSM6DSO Online!\r\n");
-      lsm6dso_reset_set(&imu_ctx, PROPERTY_ENABLE);
-      HAL_Delay(50);
-      lsm6dso_block_data_update_set(&imu_ctx, PROPERTY_ENABLE);
-      lsm6dso_xl_data_rate_set(&imu_ctx, LSM6DSO_XL_ODR_104Hz);
-      lsm6dso_gy_data_rate_set(&imu_ctx, LSM6DSO_GY_ODR_104Hz);
+  // We scan addresses 1 to 127 (7-bit addresses)
+  for (uint16_t i = 1; i < 128; i++)
+  {
+      /*
+       * HAL_I2C_IsDeviceReady uses the 8-bit shifted address.
+       * Trials: 3, Timeout: 10ms
+       */
+      result = HAL_I2C_IsDeviceReady(&hi2c1, (uint16_t)(i << 1), 3, 10);
+
+      if (result == HAL_OK)
+      {
+          printf("Found device at address: 0x%02X (8-bit: 0x%02X)\r\n", i, (i << 1));
+          devices_found++;
+      }
+  }
+
+  if (devices_found == 0) {
+      printf("No I2C devices found.\r\n");
+  } else {
+      printf("Scan complete. Found %d device(s).\r\n", devices_found);
   }
   /* USER CODE END 2 */
 
   /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
   while (1)
   {
-      lsm6dso_status_reg_t status;
-      lsm6dso_status_reg_get(&imu_ctx, &status);
-
-      if (status.xlda && status.gda)
-      {
-          // Read Raw Data
-          lsm6dso_acceleration_raw_get(&imu_ctx, data_raw_accel);
-          lsm6dso_angular_rate_raw_get(&imu_ctx, data_raw_gyro);
-
-          // Print Raw Values
-          printf("ACC: %d, %d, %d | GYR: %d, %d, %d\r\n",
-                 data_raw_accel[0], data_raw_accel[1], data_raw_accel[2],
-                 data_raw_gyro[0], data_raw_gyro[1], data_raw_gyro[2]);
-      }
-      HAL_Delay(10);
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
+      // Heartbeat LED or just wait
+      HAL_GPIO_TogglePin(GPIOE, LED_GREEN_Pin);
+      HAL_Delay(1000);
   }
-  /* USER CODE END 3 */
 }
+
+/* ... Keep the rest of your CubeMX generated Init functions below (unchanged) ... */
 
 /* ... CubeMX generated SystemClock_Config and Peripheral Inits remain below ... */
 
