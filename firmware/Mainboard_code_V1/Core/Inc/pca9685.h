@@ -1,113 +1,94 @@
-#pragma once
-
-// --- ADDED FOR H7 SUPPORT ---
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
-
-#if defined(STM32H743xx) || defined(STM32H7xx)
-    #include "stm32h7xx_hal.h"
-#elif (defined STM32L011xx) || (defined STM32L021xx) || ... // (keep existing L0/L4 logic)
-// ...
-#else
-    #warning "Platform not explicitly defined in header, attempting to use main.h"
-    #include "main.h"
-#endif
-
-#include <stdbool.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
-
-#ifndef PCA9685_I2C_TIMEOUT
-#define PCA9685_I2C_TIMEOUT 1
-#endif
-
-#define PCA9865_I2C_DEFAULT_DEVICE_ADDRESS 0x80
-
 /**
- * Structure defining a handle describing a PCA9685 device.
+ * @file  pca9685.h
+ * @brief PCA9685 16-channel PWM driver — servo-focused, C only
+ *
+ * Two boards are used:
+ *   Right: I2C 8-bit address 0xC0
+ *   Left:  I2C 8-bit address 0x80
+ *
+ * Command API mirrors the Arduino Servo library concept but in plain C.
+ * Angles are in degrees (0–180). Pulse widths are in microseconds.
  */
+
+#ifndef PCA9685_H
+#define PCA9685_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "stm32h7xx_hal.h"
+
+/* ── I2C addresses (8-bit, already shifted) ────────────────────────────── */
+#define PCA9685_ADDR_RIGHT   0xC0
+#define PCA9685_ADDR_LEFT    0x80
+#define PCA9685_ADDR_ALL     0xE0   /* All-Call: writes to both boards */
+
+/* ── Servo pulse width limits (µs) ─────────────────────────────────────── */
+#define PCA9685_SERVO_MIN_US  500u
+#define PCA9685_SERVO_MAX_US  2500u
+
+/* ── Internal register map ──────────────────────────────────────────────── */
+#define PCA9685_MODE1         0x00
+#define PCA9685_MODE2         0x01
+#define PCA9685_PRESCALE      0xFE
+#define PCA9685_LED0_ON_L     0x06
+
+/* MODE1 bits */
+#define PCA9685_MODE1_SLEEP   (1u << 4)
+#define PCA9685_MODE1_AI      (1u << 5)   /* auto-increment */
+#define PCA9685_MODE1_RESTART (1u << 7)
+
+/* ── Device handle ──────────────────────────────────────────────────────── */
 typedef struct {
+    I2C_HandleTypeDef *hi2c;
+    uint8_t            addr;        /* 8-bit I2C address */
+    float              freq_hz;     /* actual PWM frequency after init */
+    uint16_t           min_us;      /* servo minimum pulse (µs) */
+    uint16_t           max_us;      /* servo maximum pulse (µs) */
+} PCA9685_t;
 
-	/**
-	 * The handle to the I2C bus for the device.
-	 */
-	I2C_HandleTypeDef *i2c_handle;
-
-	/**
-	 * The I2C device address.
-	 * @see{PCA9865_I2C_DEFAULT_DEVICE_ADDRESS}
-	 */
-	uint16_t device_address;
-
-	/**
-	 * Set to true to drive inverted.
-	 */
-	bool inverted;
-
-} pca9685_handle_t;
+/* ── Public API ─────────────────────────────────────────────────────────── */
 
 /**
- * Initialises a PCA9685 device by resetting registers to known values, setting a PWM frequency of 1000Hz, turning
- * all channels off and waking it up.
- * @param handle Handle to a PCA9685 device.
- * @return True on success, false otherwise.
+ * @brief  Initialise the PCA9685.  Sets 50 Hz and default pulse limits.
+ * @param  dev   Pointer to handle (hi2c and addr must be filled before call).
+ * @return HAL_OK on success.
  */
-bool pca9685_init(pca9685_handle_t *handle);
+HAL_StatusTypeDef PCA9685_Init(PCA9685_t *dev);
 
 /**
- * Tests if a PCA9685 is sleeping.
- * @param handle Handle to a PCA9685 device.
- * @param sleeping Set to the sleeping state of the device.
- * @return True on success, false otherwise.
+ * @brief  Set PWM frequency.  Device is put to sleep during prescale write.
  */
-bool pca9685_is_sleeping(pca9685_handle_t *handle, bool *sleeping);
+HAL_StatusTypeDef PCA9685_SetFrequency(PCA9685_t *dev, float freq_hz);
 
 /**
- * Puts a PCA9685 device into sleep mode.
- * @param handle Handle to a PCA9685 device.
- * @return True on success, false otherwise.
+ * @brief  Set raw 12-bit ON/OFF counts for one channel (0-15).
  */
-bool pca9685_sleep(pca9685_handle_t *handle);
+HAL_StatusTypeDef PCA9685_SetPWM(PCA9685_t *dev, uint8_t ch,
+                                  uint16_t on, uint16_t off);
 
 /**
- * Wakes a PCA9685 device up from sleep mode.
- * @param handle Handle to a PCA9685 device.
- * @return True on success, false otherwise.
+ * @brief  Set servo angle in degrees (0–180).
+ *         Maps linearly to dev->min_us … dev->max_us.
  */
-bool pca9685_wakeup(pca9685_handle_t *handle);
+HAL_StatusTypeDef PCA9685_SetServoAngle(PCA9685_t *dev, uint8_t ch,
+                                         float angle_deg);
 
 /**
- * Sets the PWM frequency of a PCA9685 device for all channels.
- * Asserts that the given frequency is between 24 and 1526 Hertz.
- * @param handle Handle to a PCA9685 device.
- * @param frequency PWM frequency to set in Hertz.
- * @return True on success, false otherwise.
+ * @brief  Set servo pulse width directly in microseconds.
  */
-bool pca9685_set_pwm_frequency(pca9685_handle_t *handle, float frequency);
+HAL_StatusTypeDef PCA9685_SetServoPulse(PCA9685_t *dev, uint8_t ch,
+                                         uint16_t pulse_us);
 
-/**
- * Sets the PWM on and off times for a channel of a PCA9685 device.
- * Asserts that the given channel is between 0 and 15.
- * Asserts that the on and off times are between 0 and 4096.
- * @param handle Handle to a PCA9685 device.
- * @param channel Channel to set the times for.
- * @param on_time PWM on time of the channel.
- * @param off_time PWM off time of the channel.
- * @return True on success, false otherwise.
- */
-bool pca9685_set_channel_pwm_times(pca9685_handle_t *handle, unsigned channel, unsigned on_time, unsigned off_time);
+/** @brief  Put device into low-power sleep mode. */
+void PCA9685_Sleep(PCA9685_t *dev);
 
-/**
- * Helper function to set the PWM duty cycle for a channel of a PCA9685 device. The duty cycle is either directly
- * converted to a 12-bit value used for the PWM timings, if logarithmic is set to false, or an 8-bit value which is then
- * transformed to a 12-bit value using a look up table for the PWM timings.
- * Asserts that the duty cycle is between 0 and 1.
- * @param handle Handle to a PCA9685 device.
- * @param channel Channel to set the duty cycle of.
- * @param duty_cycle Duty cycle to set.
- * @param logarithmic Set to true to apply logarithmic function.
- * @return True on success, false otherwise.
- */
-bool pca9685_set_channel_duty_cycle(pca9685_handle_t *handle, unsigned channel, float duty_cycle, bool logarithmic);
+/** @brief  Wake device from sleep. */
+void PCA9685_Wake(PCA9685_t *dev);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* PCA9685_H */

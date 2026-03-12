@@ -5,6 +5,9 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Core/Src/VL53L1X_api.c \
+../Core/Src/VL53L1X_calibration.c \
+../Core/Src/imu.c \
 ../Core/Src/lsm6dso_reg.c \
 ../Core/Src/main.c \
 ../Core/Src/pca9685.c \
@@ -12,9 +15,14 @@ C_SRCS += \
 ../Core/Src/stm32h7xx_it.c \
 ../Core/Src/syscalls.c \
 ../Core/Src/sysmem.c \
-../Core/Src/system_stm32h7xx.c 
+../Core/Src/system_stm32h7xx.c \
+../Core/Src/tof.c \
+../Core/Src/vl53l1_platform.c 
 
 OBJS += \
+./Core/Src/VL53L1X_api.o \
+./Core/Src/VL53L1X_calibration.o \
+./Core/Src/imu.o \
 ./Core/Src/lsm6dso_reg.o \
 ./Core/Src/main.o \
 ./Core/Src/pca9685.o \
@@ -22,9 +30,14 @@ OBJS += \
 ./Core/Src/stm32h7xx_it.o \
 ./Core/Src/syscalls.o \
 ./Core/Src/sysmem.o \
-./Core/Src/system_stm32h7xx.o 
+./Core/Src/system_stm32h7xx.o \
+./Core/Src/tof.o \
+./Core/Src/vl53l1_platform.o 
 
 C_DEPS += \
+./Core/Src/VL53L1X_api.d \
+./Core/Src/VL53L1X_calibration.d \
+./Core/Src/imu.d \
 ./Core/Src/lsm6dso_reg.d \
 ./Core/Src/main.d \
 ./Core/Src/pca9685.d \
@@ -32,7 +45,9 @@ C_DEPS += \
 ./Core/Src/stm32h7xx_it.d \
 ./Core/Src/syscalls.d \
 ./Core/Src/sysmem.d \
-./Core/Src/system_stm32h7xx.d 
+./Core/Src/system_stm32h7xx.d \
+./Core/Src/tof.d \
+./Core/Src/vl53l1_platform.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -42,7 +57,7 @@ Core/Src/%.o Core/Src/%.su Core/Src/%.cyclo: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/lsm6dso_reg.cyclo ./Core/Src/lsm6dso_reg.d ./Core/Src/lsm6dso_reg.o ./Core/Src/lsm6dso_reg.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/pca9685.cyclo ./Core/Src/pca9685.d ./Core/Src/pca9685.o ./Core/Src/pca9685.su ./Core/Src/stm32h7xx_hal_msp.cyclo ./Core/Src/stm32h7xx_hal_msp.d ./Core/Src/stm32h7xx_hal_msp.o ./Core/Src/stm32h7xx_hal_msp.su ./Core/Src/stm32h7xx_it.cyclo ./Core/Src/stm32h7xx_it.d ./Core/Src/stm32h7xx_it.o ./Core/Src/stm32h7xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32h7xx.cyclo ./Core/Src/system_stm32h7xx.d ./Core/Src/system_stm32h7xx.o ./Core/Src/system_stm32h7xx.su
+	-$(RM) ./Core/Src/VL53L1X_api.cyclo ./Core/Src/VL53L1X_api.d ./Core/Src/VL53L1X_api.o ./Core/Src/VL53L1X_api.su ./Core/Src/VL53L1X_calibration.cyclo ./Core/Src/VL53L1X_calibration.d ./Core/Src/VL53L1X_calibration.o ./Core/Src/VL53L1X_calibration.su ./Core/Src/imu.cyclo ./Core/Src/imu.d ./Core/Src/imu.o ./Core/Src/imu.su ./Core/Src/lsm6dso_reg.cyclo ./Core/Src/lsm6dso_reg.d ./Core/Src/lsm6dso_reg.o ./Core/Src/lsm6dso_reg.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/pca9685.cyclo ./Core/Src/pca9685.d ./Core/Src/pca9685.o ./Core/Src/pca9685.su ./Core/Src/stm32h7xx_hal_msp.cyclo ./Core/Src/stm32h7xx_hal_msp.d ./Core/Src/stm32h7xx_hal_msp.o ./Core/Src/stm32h7xx_hal_msp.su ./Core/Src/stm32h7xx_it.cyclo ./Core/Src/stm32h7xx_it.d ./Core/Src/stm32h7xx_it.o ./Core/Src/stm32h7xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32h7xx.cyclo ./Core/Src/system_stm32h7xx.d ./Core/Src/system_stm32h7xx.o ./Core/Src/system_stm32h7xx.su ./Core/Src/tof.cyclo ./Core/Src/tof.d ./Core/Src/tof.o ./Core/Src/tof.su ./Core/Src/vl53l1_platform.cyclo ./Core/Src/vl53l1_platform.d ./Core/Src/vl53l1_platform.o ./Core/Src/vl53l1_platform.su
 
 .PHONY: clean-Core-2f-Src
 
