@@ -36,7 +36,7 @@ extern "C" {
 
 /* MODE1 bits */
 #define PCA9685_MODE1_SLEEP   (1u << 4)
-#define PCA9685_MODE1_AI      (1u << 5)   /* auto-increment */
+#define PCA9685_MODE1_AI      (1u << 5)
 #define PCA9685_MODE1_RESTART (1u << 7)
 
 /* ── Device handle ──────────────────────────────────────────────────────── */

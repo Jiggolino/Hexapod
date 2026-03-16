@@ -39,7 +39,7 @@ I2C_HandleTypeDef hi2c1;
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
-/* Servo boards */
+/* Servo Drivers */
 static PCA9685_t pca_right;
 static PCA9685_t pca_left;
 
@@ -50,7 +50,7 @@ static IMU_Data_t   imu_data;
 /* ToF */
 static TOF_Data_t tof_data;
 
-/* UART receive — polling, byte by byte */
+/* UART receive */
 #define CMD_BUF_LEN 32
 static char    cmd_buf[CMD_BUF_LEN];
 static uint8_t cmd_idx   = 0;
@@ -80,7 +80,7 @@ static void center_all_servos(void);
 
 /* USER CODE BEGIN 0 */
 
-/* printf → UART retarget */
+/* SYS-remap to UART */
 int _write(int file, char *ptr, int len)
 {
     HAL_UART_Transmit(&huart1, (uint8_t *)ptr, len, HAL_MAX_DELAY);
@@ -176,7 +176,7 @@ static void process_command(const char *cmd)
 static void center_all_servos(void)
 {
     for (uint8_t ch = 0; ch < 9; ch++) {
-        PCA9685_SetServoAngle(&pca_right, ch, 90.0f);
+    	PCA9685_SetServoAngle(&pca_right, ch, 90.0f);
         PCA9685_SetServoAngle(&pca_left,  ch, 90.0f);
     }
 }

@@ -1,9 +1,9 @@
 ../Core/Src/pca9685.c:18:26:write_reg	1
 ../Core/Src/pca9685.c:24:26:read_reg	2
 ../Core/Src/pca9685.c:34:19:PCA9685_Init	6
-../Core/Src/pca9685.c:60:19:PCA9685_SetFrequency	5
-../Core/Src/pca9685.c:93:19:PCA9685_SetPWM	1
-../Core/Src/pca9685.c:105:19:PCA9685_SetServoPulse	3
-../Core/Src/pca9685.c:118:19:PCA9685_SetServoAngle	3
-../Core/Src/pca9685.c:130:6:PCA9685_Sleep	2
-../Core/Src/pca9685.c:137:6:PCA9685_Wake	2
+../Core/Src/pca9685.c:59:19:PCA9685_SetFrequency	5
+../Core/Src/pca9685.c:92:19:PCA9685_SetPWM	1
+../Core/Src/pca9685.c:104:19:PCA9685_SetServoPulse	3
+../Core/Src/pca9685.c:117:19:PCA9685_SetServoAngle	3
+../Core/Src/pca9685.c:143:6:PCA9685_Sleep	2
+../Core/Src/pca9685.c:150:6:PCA9685_Wake	2

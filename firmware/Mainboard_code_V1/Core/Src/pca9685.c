@@ -39,9 +39,8 @@ HAL_StatusTypeDef PCA9685_Init(PCA9685_t *dev)
     if (dev->min_us == 0) dev->min_us = PCA9685_SERVO_MIN_US;
     if (dev->max_us == 0) dev->max_us = PCA9685_SERVO_MAX_US;
 
-    /* Software reset via general call (addr 0x00, data 0x06) */
-    uint8_t reset_cmd = 0x06;
-    HAL_I2C_Master_Transmit(dev->hi2c, 0x00, &reset_cmd, 1, 10);
+    /* Software reset — write MODE1 SLEEP to this device only */
+    write_reg(dev, PCA9685_MODE1, PCA9685_MODE1_SLEEP);
     HAL_Delay(10);
 
     /* Enable auto-increment, clear sleep bit */
@@ -118,11 +117,25 @@ HAL_StatusTypeDef PCA9685_SetServoPulse(PCA9685_t *dev, uint8_t ch,
 HAL_StatusTypeDef PCA9685_SetServoAngle(PCA9685_t *dev, uint8_t ch,
                                           float angle_deg)
 {
-    if (angle_deg < 0.0f)   angle_deg = 0.0f;
-    if (angle_deg > 180.0f) angle_deg = 180.0f;
 
-    uint16_t pulse_us = (uint16_t)(dev->min_us +
-                        (angle_deg / 180.0f) * (dev->max_us - dev->min_us));
+//	if (dev->addr == PCA9685_ADDR_LEFT) {
+//	    if      (ch == 1 || ch == 5 || ch == 7) angle_deg = 90.0f - angle_deg;
+//	    else if (ch == 2 || ch == 4 || ch == 8) angle_deg = 147.0f - angle_deg;
+//	    else if (ch == 3 || ch == 6 || ch == 9) angle_deg = 144.0f - angle_deg;
+//	    else return HAL_ERROR;
+//	}
+//	else if (dev->addr == PCA9685_ADDR_RIGHT) {
+//	    if      (ch == 1 || ch == 5 || ch == 7) angle_deg = 90.0f - angle_deg;
+//	    else if (ch == 2 || ch == 4 || ch == 8) angle_deg = 93.0f - angle_deg;
+//	    else if (ch == 3 || ch == 6 || ch == 9) angle_deg = 36.0f - angle_deg;
+//	    else return HAL_ERROR;
+//	}
+//	else return HAL_ERROR;
+
+	if (angle_deg < 0.0f)   angle_deg = 0.0f;
+	if (angle_deg > 180.0f) angle_deg = 180.0f;
+
+    uint16_t pulse_us = (uint16_t)(dev->min_us + (angle_deg / 180.0f) * (dev->max_us - dev->min_us));
 
     return PCA9685_SetServoPulse(dev, ch, pulse_us);
 }
