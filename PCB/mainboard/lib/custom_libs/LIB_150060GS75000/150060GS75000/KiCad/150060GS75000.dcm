@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 150060GS75000
+D WL-SMCW SMT Mono-Color Chip LED Waterclear 0603, Green Typ.(@20mA): 520nm, 430mcd, 3.2V, 140 InGaN
+K
+F https://www.we-online.com/catalog/datasheet/150060GS75000.pdf
+$ENDCMP
+#
+#End Doc Library

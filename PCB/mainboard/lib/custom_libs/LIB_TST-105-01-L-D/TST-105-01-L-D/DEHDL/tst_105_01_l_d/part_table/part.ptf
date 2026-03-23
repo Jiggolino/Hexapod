@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TST_105_01_L_D'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "SAMTEC", "TST-105-01-L-D" (!) = "", "TST-105-XX-Y-D", "Other", "200-TST10501LD", "https://www.mouser.co.uk/ProductDetail/Samtec/TST-105-01-L-D?qs=rU5fayqh%252BE3T4XEa6zyGyQ%3D%3D", "10 Position, Shrouded PCB Headers, 0.100&quot; pitch", "http://suddendocs.samtec.com/prints/tst-1xx-xx-x-x-xx-xx-mkt.pdf"
+END_PART
+
+END.

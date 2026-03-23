@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SP4065-08ATG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-15-16:49:18)
+    (mountForm default
+        (footprintRef "SOP50P488X110-10N")
+        (spec "System")
+    )
+)

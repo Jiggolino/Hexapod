@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32H743ZIT6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32H743ZIT6" (!) = "", "QFP50P2200X2200X160-144N", "Quad Flat Packages", "511-STM32H743ZIT6", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32H743ZIT6?qs=FNcb6ahWXRyuf15GdgTu%252Bw%3D%3D", "ARM Microcontrollers - MCU High-performance and DSP with DP-FPU, ARM Cortex-M7 MCU with 2MBytes Flash, 1MB RAM, 400 MHz CPU, Art Accelerator, L1 cache, external memory interface, large set of peripherals", "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf", "1.6 mm"
+END_PART
+
+END.

@@ -1,0 +1,5 @@
+../Core/Src/imu.c:11:16:platform_write	40	static
+../Core/Src/imu.c:21:16:platform_read	40	static
+../Core/Src/imu.c:33:9:IMU_Init	24	static
+../Core/Src/imu.c:64:9:IMU_Read	24	static
+../Core/Src/imu.c:85:6:IMU_Print	56	static

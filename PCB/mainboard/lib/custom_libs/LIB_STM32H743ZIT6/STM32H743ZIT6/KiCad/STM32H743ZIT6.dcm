@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32H743ZIT6
+D ARM Microcontrollers - MCU High-performance and DSP with DP-FPU, ARM Cortex-M7 MCU with 2MBytes Flash, 1MB RAM, 400 MHz CPU, Art Accelerator, L1 cache, external memory interface, large set of peripherals
+K
+F https://www.st.com/resource/en/datasheet/stm32h743vi.pdf
+$ENDCMP
+#
+#End Doc Library

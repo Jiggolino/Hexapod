@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C4532X5R1C336M250KA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-17-11:57:14)
+    (mountForm default
+        (footprintRef "C4532_Commercial")
+        (spec "System")
+    )
+)

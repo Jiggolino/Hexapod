@@ -1,0 +1,16 @@
+.ECS-250-8-36CKM-TR3 :1 ;Crystals 25MHz,CL 8,TOL +/-10 ppm,STAB +/-10 ppm,-20 +70 C,ESR O60
+ECS250836CKMTR3
+*STM Y
+*NGS
+*PLB 1="IN/OUT" 2="GND_1" 3="OUT/IN" 4="GND_2"
+*MXP 4
+*DFN ECS-250-8-36CKM-TR3
+~!Mouser Part Number (520-250-8-36CKM-TR3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ECS/ECS-250-8-36CKM-TR3?qs=e8oIoAS2J1SEILtnBWQaUQ%3D%3D)
+~!Manufacturer_Name (ECS)
+~!Manufacturer_Part_Number (ECS-250-8-36CKM-TR3)
+~!Link Datasheet (-)
+~!Height (0.6mm)
+~!3D_Model (ECS-250-8-36CKM-TR3)
+ECS-250-8-36CKM-TR3
+1.1!U 2.1!U 3.1!U 4.1!U 

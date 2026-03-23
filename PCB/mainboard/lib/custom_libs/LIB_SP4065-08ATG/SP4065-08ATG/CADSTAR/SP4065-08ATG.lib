@@ -1,0 +1,16 @@
+.SP4065-08ATG :1 ;LITTELFUSE - SP4065-08ATG - DIODE, ESD PROTECTION, 3.3V, MSOP
+SOP50P488X110-10N
+*STM IC
+*NGS
+*PLB 1="I/O_1" 2="I/O_2" 3="I/O_3" 4="I/O_4" 5="NC" 6="GND" 7="I/O_5" 8="I/O_6" 9="I/O_7" 10="I/O_8"
+*MXP 10
+*DFN SP4065-08ATG
+~!Mouser Part Number (576-SP4065-08ATG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/SP4065-08ATG?qs=0Dbrz4iFQy%2FklE79eCp2zA%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (SP4065-08ATG)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/SP4065-08ATG.pdf)
+~!Height (1.1mm)
+~!3D_Model (SP4065-08ATG)
+SP4065-08ATG
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

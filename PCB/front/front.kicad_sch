@@ -2023,7 +2023,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 104.14 107.95) (xy 114.3 107.95)
+=======
+			(xy 104.14 107.95) (xy 115.57 107.95)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		)
 		(stroke
 			(width 0)
@@ -2143,7 +2147,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 104.14 100.33) (xy 114.3 100.33)
+=======
+			(xy 104.14 100.33) (xy 115.57 100.33)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		)
 		(stroke
 			(width 0)
@@ -3291,7 +3299,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 149.5552 67.31 0)
 			(effects
 				(font
@@ -3359,7 +3371,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11006_1x06-1MP_P0.5mm_Horizontal"
+=======
+		(property "Footprint" "Library:849526"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 40.64 33.02 0)
 			(effects
 				(font
@@ -3508,7 +3524,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 84.7852 38.1 0)
 			(effects
 				(font
@@ -3654,7 +3674,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 84.7852 67.31 0)
 			(effects
 				(font
@@ -3722,7 +3746,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11006_1x06-1MP_P0.5mm_Horizontal"
+=======
+		(property "Footprint" "Library:849526"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 40.64 62.23 0)
 			(effects
 				(font
@@ -3802,7 +3830,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11008_1x08-1MP_P0.5mm_Horizontal"
+=======
+		(property "Footprint" "Library:17352658"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 43.18 105.41 0)
 			(effects
 				(font
@@ -3890,7 +3922,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 116.5352 67.31 0)
 			(effects
 				(font
@@ -3934,7 +3970,11 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< HEAD
 		(at 114.3 104.14 0)
+=======
+		(at 115.57 104.14 0)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3943,7 +3983,11 @@
 		(fields_autoplaced yes)
 		(uuid "b3f0024b-b58f-4653-b358-f522b6871a62")
 		(property "Reference" "C8"
+<<<<<<< HEAD
 			(at 118.11 102.8699 0)
+=======
+			(at 119.38 102.8699 0)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3996,11 @@
 			)
 		)
 		(property "Value" "100n"
+<<<<<<< HEAD
 			(at 118.11 105.4099 0)
+=======
+			(at 119.38 105.4099 0)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,8 +4008,13 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 115.2652 107.95 0)
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 116.5352 107.95 0)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4023,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< HEAD
 			(at 114.3 104.14 0)
+=======
+			(at 115.57 104.14 0)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4036,11 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+<<<<<<< HEAD
 			(at 114.3 104.14 0)
+=======
+			(at 115.57 104.14 0)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4091,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 149.5552 38.1 0)
 			(effects
 				(font
@@ -4252,7 +4317,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 116.5352 38.1 0)
 			(effects
 				(font
@@ -4398,7 +4467,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 105.1052 107.95 0)
 			(effects
 				(font

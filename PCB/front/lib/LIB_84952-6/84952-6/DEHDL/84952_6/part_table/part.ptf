@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '84952_6'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "84952-6" (!) = "", "849526", "Other", "571-84952-6", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/84952-6?qs=uUkeXfjQ8uRheCYN9AcwcA%3D%3D", "Body Features: Primary Product Color Natural | Configuration Features: PCB Mount Orientation Right Angle | Compatible With Wire & Cable Type FPC | Compatible With Wire & Cable Type FFC | Number of Positions 6 | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2 MICM | Contact Mating Area Plating Material Thickness 2 MICM | Contact Current Rating (Max) 1 AMP | Contact Shape & Form Single Beam | PCB Contact Termination Area", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773461-0_Standard_FPC_Connectors_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=84952-6&DocFormat=pdf", "2.12 mm"
+END_PART
+
+END.

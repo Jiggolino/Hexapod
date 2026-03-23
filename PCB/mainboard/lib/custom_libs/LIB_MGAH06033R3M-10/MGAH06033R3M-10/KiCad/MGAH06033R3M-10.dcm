@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MGAH06033R3M-10
+D Power Inductors - SMD 3.3uH 0.03ohm 9.5A
+K
+F https://www.mouser.fr/datasheet/2/987/MGAH0603_2520Series-3043308.pdf
+$ENDCMP
+#
+#End Doc Library

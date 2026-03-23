@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ECS250836CKMTR3"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ECS250836CKMTR3")
+        (spec "default")
+    )
+)

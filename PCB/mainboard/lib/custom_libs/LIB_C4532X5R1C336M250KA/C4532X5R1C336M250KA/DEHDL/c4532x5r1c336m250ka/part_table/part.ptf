@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C4532X5R1C336M250KA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "C4532X5R1C336M250KA" (!) = "", "C4532_Commercial", "Other", "810-C4532X5R1C336M", "https://www.mouser.co.uk/ProductDetail/TDK/C4532X5R1C336M250KA?qs=NRhsANhppD8boSYbSECPsw%3D%3D", "MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)", "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf", "2.2 mm"
+END_PART
+
+END.

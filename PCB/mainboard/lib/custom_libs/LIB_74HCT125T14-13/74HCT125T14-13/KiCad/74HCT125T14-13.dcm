@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HCT125T14-13
+D DiodesZetex 74HCT125T14-13, Quad, Buffer 3-State, Non-Inverting, 4.5  5.5 V, 14-Pin TSSOP
+K
+F https://www.diodes.com//assets/Datasheets/74HCT125.pdf
+$ENDCMP
+#
+#End Doc Library

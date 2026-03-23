@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=TST-105-01-L-D
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=2.1
+Released=2018-07-17 13:55:17
+Downloaded=2025-11-24 12:36:12
+3D=Y

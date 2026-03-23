@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=SP4065-08ATG
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=2.1
+Released=2018-11-12 06:27:07
+Downloaded=2025-11-28 09:21:56
+3D=Y

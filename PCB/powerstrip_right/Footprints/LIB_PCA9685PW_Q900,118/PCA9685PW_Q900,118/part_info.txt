@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manufacturer=NXP
 PartNumber=PCA9685PW/Q900,118
 PartCategory=Integrated Circuit
@@ -7,3 +8,14 @@ Version=1.1
 Released=2019-04-13 10:01:56
 Downloaded=2025-10-28 09:37:13
 3D=Y
+=======
+Manufacturer=NXP
+PartNumber=PCA9685PW/Q900,118
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=28
+Version=1.1
+Released=2019-04-13 10:01:56
+Downloaded=2025-10-28 09:37:13
+3D=Y
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952

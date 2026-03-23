@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS5430DDA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-31-12:52:10)
+    (mountForm default
+        (footprintRef "SOIC127P600X170-9N")
+        (spec "System")
+    )
+)

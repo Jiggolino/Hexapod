@@ -1,0 +1,16 @@
+.C4532X5R1C336M250KA :1 ;MULTILAYER CERAMIC CHIP CAPACITORS, 4532, Commercial grade, general (Up to 75V)
+C4532_Commercial
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C4532X5R1C336M250KA
+~!Mouser Part Number (810-C4532X5R1C336M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/C4532X5R1C336M250KA?qs=NRhsANhppD8boSYbSECPsw%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (C4532X5R1C336M250KA)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf)
+~!Height (2.2mm)
+~!3D_Model (C4532X5R1C336M250KA)
+C4532X5R1C336M250KA
+1.1!U 2.1!U 

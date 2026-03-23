@@ -1,0 +1,18 @@
+.MGAH06033R3M-10 :1 ;Power Inductors - SMD 3.3uH 0.03ohm 9.5A
+INDPM7066X310N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MGAH06033R3M-10
+~!Manufacturer_Name (Laird Performance Materials)
+~!Manufacturer_Part_Number (MGAH06033R3M-10)
+~!Mouser Part Number (739-MGAH06033R3M-10)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Laird-Performance-Materials/MGAH06033R3M-10?qs=By6Nw2ByBD2mXVegrURTAA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mouser.fr/datasheet/2/987/MGAH0603_2520Series-3043308.pdf)
+~!Height (3.1mm)
+~!3D_Model (MGAH06033R3M-10)
+MGAH06033R3M-10
+1.1!U 2.1!U 

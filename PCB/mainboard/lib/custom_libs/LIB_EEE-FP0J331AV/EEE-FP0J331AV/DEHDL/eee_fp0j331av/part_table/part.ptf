@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EEE_FP0J331AV'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "EEE-FP0J331AV" (!) = "", "EEEFP0J331AV", "Other", "667-EEE-FP0J331AV", "https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-FP0J331AV?qs=PzGy0jfpSMsMjeAaAoqJXg%3D%3D", "Aluminium Electroyltic Capacitor, Radial, Vibration-Proof", "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf", "6.5 mm"
+END_PART
+
+END.

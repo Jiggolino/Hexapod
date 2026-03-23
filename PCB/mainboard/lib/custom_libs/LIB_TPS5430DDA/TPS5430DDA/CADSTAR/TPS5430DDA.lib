@@ -1,0 +1,16 @@
+.TPS5430DDA :1 ;TPS5430DDA, Switching Regulator, Buck Controller, 3A, Adjustable, 1.22 to 31V, 500kHz, 8-Pin SOIC
+SOIC127P600X170-9N
+*STM IC
+*NGS
+*PLB 1="BOOT" 2="NC_1" 3="NC_2" 4="VSENSE" 5="ENA" 6="GND_1" 7="VIN" 8="PH" 9="GND_2"
+*MXP 9
+*DFN TPS5430DDA
+~!Mouser Part Number (595-TPS5430DDA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS5430DDA?qs=zwk82MlA57bk5fOPRvfoCA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS5430DDA)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100034215.pdf)
+~!Height (1.7mm)
+~!3D_Model (TPS5430DDA)
+TPS5430DDA
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

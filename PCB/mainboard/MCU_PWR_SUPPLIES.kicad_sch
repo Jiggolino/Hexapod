@@ -1715,6 +1715,53 @@
 		)
 		(uuid "f91cd5ef-6f1a-427c-a962-6ba8de4c2b32")
 	)
+<<<<<<< HEAD
+=======
+	(global_label "VCAP_1"
+		(shape input)
+		(at 245.11 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "0a7aff7b-0bfa-4a28-9fb8-9b9614a12231")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 71.1186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCAP_2"
+		(shape input)
+		(at 256.54 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "71716c1f-b5e9-4015-b773-f03504f12b43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 71.1186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 	(symbol
 		(lib_id "Device:C")
 		(at 256.54 85.09 0)
@@ -1743,7 +1790,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 257.5052 88.9 0)
 			(effects
 				(font
@@ -2332,6 +2383,74 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
+=======
+		(lib_id "power:VDD")
+		(at 54.61 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21670ef2-4e72-4fee-96fb-61e9d413eed0")
+		(property "Reference" "#PWR0142"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_MCU"
+			(at 54.61 57.658 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcc62356-6706-47f0-8989-8914c82b1878")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(lib_id "power:VDDA")
 		(at 113.03 64.77 270)
 		(unit 1)
@@ -3012,6 +3131,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:VDDA")
 		(at 245.11 80.01 0)
 		(unit 1)
@@ -3078,6 +3198,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(lib_id "Device:C")
 		(at 181.61 86.36 0)
 		(unit 1)
@@ -4189,7 +4311,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+=======
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 			(at 246.0752 88.9 0)
 			(effects
 				(font
@@ -4432,6 +4558,75 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
+=======
+		(lib_id "power:+3V3")
+		(at 54.61 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b964fa-8d89-4c27-b7b6-45e3073f2496")
+		(property "Reference" "#PWR0150"
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64fa1e50-1885-469b-bdce-65356de8b4be")
+		)
+		(instances
+			(project "mainboard"
+				(path "/d49cf26c-5888-451d-a9f9-a714323b15a2/a9b1073a-a94d-4144-916f-539263f971f9"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(lib_id "power:VDDA")
 		(at 196.85 78.74 0)
 		(unit 1)
@@ -4903,6 +5098,7 @@
 			)
 		)
 	)
+<<<<<<< HEAD
 	(symbol
 		(lib_id "power:VDDA")
 		(at 256.54 80.01 0)
@@ -4969,4 +5165,6 @@
 			)
 		)
 	)
+=======
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 )

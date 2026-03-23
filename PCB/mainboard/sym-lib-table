@@ -1,5 +1,6 @@
 (sym_lib_table
   (version 7)
+<<<<<<< HEAD
   (lib (name "mianboard")(type "KiCad")(uri "${KIPRJMOD}/lib/mianboard.kicad_sym")(options "")(descr ""))
   (lib (name "STM32H743ZIT6")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_STM32H743ZIT6/STM32H743ZIT6/KiCad/STM32H743ZIT6.kicad_sym")(options "")(descr ""))
   (lib (name "BLM31KN601SH1L")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_BLM31KN601SH1L/BLM31KN601SH1L/KiCad/BLM31KN601SH1L.kicad_sym")(options "")(descr ""))
@@ -10,4 +11,20 @@
   (lib (name "74HCT125T14-13")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_74HCT125T14-13/74HCT125T14-13/KiCad/74HCT125T14-13.kicad_sym")(options "")(descr ""))
   (lib (name "SP4065-08ATG")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_SP4065-08ATG/SP4065-08ATG/KiCad/SP4065-08ATG.kicad_sym")(options "")(descr ""))
   (lib (name "BZT585B3V3T-7")(type "KiCad")(uri "C:/Users/linus/Downloads/LIB_BZT585B3V3T-7/BZT585B3V3T-7/KiCad/BZT585B3V3T-7.kicad_sym")(options "")(descr ""))
+=======
+  (lib (name "74HCT125T14-13")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_74HCT125T14-13/74HCT125T14-13/KiCad/74HCT125T14-13.kicad_sym")(options "")(descr ""))
+  (lib (name "434121025816")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_434121025816/434121025816/KiCad/434121025816.kicad_sym")(options "")(descr ""))
+  (lib (name "B340A-13-F")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_B340A-13-F/B340A-13-F/KiCad/B340A-13-F.kicad_sym")(options "")(descr ""))
+  (lib (name "BZT585B3V3T-7")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_BZT585B3V3T-7/BZT585B3V3T-7/KiCad/BZT585B3V3T-7.kicad_sym")(options "")(descr ""))
+  (lib (name "CM7V-T1A-32_768KHZ-7PF-20PPM-T")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC/CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC/KiCad/CM7V-T1A-32_768KHZ-7PF-20PPM-T.kicad_sym")(options "")(descr ""))
+  (lib (name "EEE-FP0J331AV")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_EEE-FP0J331AV/EEE-FP0J331AV/KiCad/EEE-FP0J331AV.kicad_sym")(options "")(descr ""))
+  (lib (name "LSM6DSOTR")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_LSM6DSOTR/LSM6DSOTR/KiCad/LSM6DSOTR.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-250-8-36CKM-TR3")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_ECS-250-8-36CKM-TR3/ECS-250-8-36CKM-TR3/KiCad/ECS-250-8-36CKM-TR3.kicad_sym")(options "")(descr ""))
+  (lib (name "SP4065-08ATG")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_SP4065-08ATG/SP4065-08ATG/KiCad/SP4065-08ATG.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32H743ZIT6")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_STM32H743ZIT6/STM32H743ZIT6/KiCad/STM32H743ZIT6.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5430DDA")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_TPS5430DDA/TPS5430DDA/KiCad/TPS5430DDA.kicad_sym")(options "")(descr ""))
+  (lib (name "TST-105-01-L-D")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/LIB_TST-105-01-L-D/TST-105-01-L-D/KiCad/TST-105-01-L-D.kicad_sym")(options "")(descr ""))
+  (lib (name "MGAH06033R3M-10")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/MGAH06033R3M-10/MGAH06033R3M-10.kicad_sym")(options "")(descr ""))
+  (lib (name "TPSM863252RDXR")(type "KiCad")(uri "${KIPRJMOD}/lib/custom_libs/TPSM863252RDXR/TPSM863252RDXR.kicad_sym")(options "")(descr ""))
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 )

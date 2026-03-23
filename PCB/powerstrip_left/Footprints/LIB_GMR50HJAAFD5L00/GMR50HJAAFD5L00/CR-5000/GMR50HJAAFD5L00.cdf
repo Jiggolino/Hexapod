@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (part "GMR50HJAAFD5L00"
     (packageRef "GMR50HJAAFD5L00")
     (interface
@@ -19,3 +20,26 @@
     (property "Datasheet_Link" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf")
     (property "symbolName1" "GMR50HJAAFD5L00")
 )
+=======
+(part "GMR50HJAAFD5L00"
+    (packageRef "GMR50HJAAFD5L00")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "compKind" "131")
+    (property "Mouser_Part_Number" "755-GMR50HJAAFD5L00")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/GMR50HJAAFD5L00?qs=GBLSl2Akirvaz25S3G4Wxw%3D%3D")
+    (property "Manufacturer_Name" "ROHM Semiconductor")
+    (property "Manufacturer_Part_Number" "GMR50HJAAFD5L00")
+    (property "Description" "5025 (2010) size, 4W, 33m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)")
+    (property "Datasheet_Link" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf")
+    (property "symbolName1" "GMR50HJAAFD5L00")
+)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952

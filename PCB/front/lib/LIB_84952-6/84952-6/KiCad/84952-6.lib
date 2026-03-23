@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 84952-6
+#/192982/1803662/2.50/8/2/Connector
+DEF 84952-6 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "84952-6" 650 200 50 H V L CNN
+F2 "849526" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773461-0_Standard_FPC_Connectors_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=84952-6&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Natural | Configuration Features: PCB Mount Orientation Right Angle | Compatible With Wire & Cable Type FPC | Compatible With Wire & Cable Type FFC | Number of Positions 6 | Number of Rows 1 | Contact Features: Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 2 MICM | Contact Mating Area Plating Material Thickness 2 MICM | Contact Current Rating (Max) 1 AMP | Contact Shape & Form Single Beam | PCB Contact Termination Area" 650 -100 50 H I L CNN "Description"
+F5 "2.12" 650 -200 50 H I L CNN "Height"
+F6 "571-84952-6" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/84952-6?qs=uUkeXfjQ8uRheCYN9AcwcA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "84952-6" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 -200 200 L 50 50 0 0 P
+X 4 4 800 -300 200 L 50 50 0 0 P
+X 5 5 800 -400 200 L 50 50 0 0 P
+X 6 6 800 -500 200 L 50 50 0 0 P
+X 7 7 0 0 200 R 50 50 0 0 P
+X 8 8 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

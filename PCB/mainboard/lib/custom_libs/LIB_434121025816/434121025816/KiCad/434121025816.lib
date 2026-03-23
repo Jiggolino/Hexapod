@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 434121025816
+#/342170/1803662/2.50/2/2/Switch
+DEF 434121025816 S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "434121025816" 750 200 50 H V L CNN
+F2 "434121050816" 750 100 50 H I L CNN
+F3 "https://www.we-online.com/catalog/datasheet/434121025816.pdf" 750 0 50 H I L CNN
+F4 "WS-TASV Tact Switch 6.0*3.8mm vertical type, SMT, height 2.5mm, black actuator, 160gf, T&R" 750 -100 50 H I L CNN "Description"
+F5 "5" 750 -200 50 H I L CNN "Height"
+F6 "710-434121025816" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434121025816?qs=wr8lucFkNMWyfcUAFbmtRw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "434121025816" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM 1 0 0 200 R 50 50 0 0 P
+X NO 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

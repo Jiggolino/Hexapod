@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (footprint "ECS250836CKMTR3"
 	(version 20241229)
 	(generator "pcbnew")
@@ -223,3 +224,230 @@
 		)
 	)
 )
+=======
+(footprint "ECS250836CKMTR3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ECS-250-8-36CKM-TR3-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "fa88c227-137d-415b-8f02-7338c8a7bef1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECS250836CKMTR3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c8f0a6ce-75f9-41dd-a544-160c0fbdcb48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdad51a5-1b91-4bae-8b69-db5070695730")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae86b6e4-0dfb-4068-8dff-34cab57b9fce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 0.6)
+		(end -2 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2183a490-0350-44b8-8950-0f807b607763")
+	)
+	(fp_line
+		(start -2 0.7)
+		(end -2 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "044d1c10-f361-42e4-a391-6fee85c76833")
+	)
+	(fp_arc
+		(start -2 0.6)
+		(mid -1.95 0.65)
+		(end -2 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f81005aa-a68b-4717-bf76-b23c74f6accd")
+	)
+	(fp_arc
+		(start -2 0.7)
+		(mid -2.05 0.65)
+		(end -2 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24227d79-2ec8-42a3-8bff-a13338f73bb3")
+	)
+	(fp_line
+		(start -2.45 -2.15)
+		(end 2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd8daa46-5924-469b-81df-092868a9bcec")
+	)
+	(fp_line
+		(start -2.45 2.15)
+		(end -2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c47bc5d-008d-4f41-847a-7022f1fe475d")
+	)
+	(fp_line
+		(start 2.45 -2.15)
+		(end 2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8120de4d-ab93-4777-91d1-75800f633633")
+	)
+	(fp_line
+		(start 2.45 2.15)
+		(end -2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87f40e65-06b9-41d9-9ee2-b1ac6ee2f8a5")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d50decf-3bb3-4ed4-a85e-55dfa1057e0a")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00186e2c-4530-4922-9bcd-dc5ae923a4a0")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd1c9ded-6a0d-4436-8592-e8c7806f6963")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5deb64c9-0289-4fcb-b679-52543f15d329")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "143ef0c7-bd54-4f47-9bb5-1d2523664a04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b0927d9-509f-4dba-a654-39a4f578a5e0")
+	)
+	(pad "2" smd rect
+		(at 0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "507102ab-93e7-4b7f-a01d-02202195bec2")
+	)
+	(pad "3" smd rect
+		(at 0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47d394f0-96dd-4cb7-a0df-c236c3d7265c")
+	)
+	(pad "4" smd rect
+		(at -0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d28835d6-31d7-4412-b446-e827179c5fcf")
+	)
+	(embedded_fonts no)
+	(model "ECS-250-8-36CKM-TR3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manufacturer=ROHM Semiconductor
 PartNumber=GMR50HJAAFD5L00
 PartCategory=Resistor
@@ -7,3 +8,14 @@ Version=3.1
 Released=2021-02-09 16:27:15
 Downloaded=2025-10-28 12:53:14
 3D=Y
+=======
+Manufacturer=ROHM Semiconductor
+PartNumber=GMR50HJAAFD5L00
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2021-02-09 16:27:15
+Downloaded=2025-10-28 12:53:14
+3D=Y
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "74HCT125T14-13"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-03-23-12:18:22)
+    (mountForm default
+        (footprintRef "SOP65P640X120-14N")
+        (spec "System")
+    )
+)

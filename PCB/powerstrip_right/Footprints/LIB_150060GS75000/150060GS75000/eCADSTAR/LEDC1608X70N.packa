@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "150060GS75000"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-08-03-11:26:16)
+    (mountForm default
+        (footprintRef "LEDC1608X70N")
+        (spec "System")
+    )
+)

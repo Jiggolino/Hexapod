@@ -68,7 +68,11 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
+<<<<<<< HEAD
         "courtyards_overlap": "error",
+=======
+        "courtyards_overlap": "ignore",
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -139,7 +143,11 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
+<<<<<<< HEAD
         "solder_mask_to_copper_clearance": 0.0,
+=======
+        "solder_mask_to_copper_clearance": 0.005,
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -189,7 +197,12 @@
       "track_widths": [
         0.0,
         0.2,
+<<<<<<< HEAD
         0.4
+=======
+        0.4,
+        0.8
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -439,7 +452,11 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
+<<<<<<< HEAD
       "multiple_net_names": "warning",
+=======
+      "multiple_net_names": "ignore",
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
@@ -505,7 +522,11 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
+<<<<<<< HEAD
       "step": "powerstrip_right.step",
+=======
+      "step": "../../../../../Downloads/powerstrip_right.step",
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
       "svg": "",
       "vrml": ""
     },

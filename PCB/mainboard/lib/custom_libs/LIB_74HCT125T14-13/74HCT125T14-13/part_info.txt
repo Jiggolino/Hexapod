@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=74HCT125T14-13
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=4.1
+Released=2018-12-15 04:09:12
+Downloaded=2025-11-28 09:22:16
+3D=Y

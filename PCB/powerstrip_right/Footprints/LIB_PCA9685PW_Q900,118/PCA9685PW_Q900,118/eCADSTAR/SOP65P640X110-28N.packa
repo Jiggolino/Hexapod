@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (unit MM)
 
 (package "PCA9685PW_Q900_118"
@@ -11,3 +12,18 @@
         (spec "System")
     )
 )
+=======
+(unit MM)
+
+(package "PCA9685PW_Q900_118"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-04-13-10:01:56)
+    (mountForm default
+        (footprintRef "SOP65P640X110-28N")
+        (spec "System")
+    )
+)
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952

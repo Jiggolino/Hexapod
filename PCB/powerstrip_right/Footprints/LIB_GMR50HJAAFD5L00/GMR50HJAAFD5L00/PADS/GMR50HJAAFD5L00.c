@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *PADS-LIBRARY-SCH-DECALS-V9*
 
 GMR50HJAAFD5L00 32000 32000 100 10 100 10 4 1 0 2 24
@@ -24,3 +25,31 @@ T700   0     0 2 0     10    0 0 0     -10   0 32 PIN
 P-520  0     0 2 -80   0     0 2 0
 
 *END*
+=======
+*PADS-LIBRARY-SCH-DECALS-V9*
+
+GMR50HJAAFD5L00 32000 32000 100 10 100 10 4 1 0 2 24
+TIMESTAMP 2018.01.18.07.51.25
+"Default Font"
+"Default Font"
+550   250   0 8 100 10 "Default Font"
+REF-DES
+550   150   0 8 100 10 "Default Font"
+PART-TYPE
+350   -100  0 12 100 10 "Default Font"
+*
+350   -200  0 12 100 10 "Default Font"
+*
+CLOSED 5 10 0 -1
+200   50   
+500   50   
+500   -50  
+200   -50  
+200   50   
+T0     0     0 0 0     10    0 0 0     -10   0 32 PIN
+P-520  0     0 2 -80   0     0 2 0
+T700   0     0 2 0     10    0 0 0     -10   0 32 PIN
+P-520  0     0 2 -80   0     0 2 0
+
+*END*
+>>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952

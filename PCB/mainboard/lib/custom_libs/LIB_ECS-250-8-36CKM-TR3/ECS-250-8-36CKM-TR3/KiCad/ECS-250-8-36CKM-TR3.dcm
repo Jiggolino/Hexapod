@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-250-8-36CKM-TR3
+D Crystals 25MHz,CL 8,TOL +/-10 ppm,STAB +/-10 ppm,-20 +70 C,ESR O60
+K
+F 
+$ENDCMP
+#
+#End Doc Library
