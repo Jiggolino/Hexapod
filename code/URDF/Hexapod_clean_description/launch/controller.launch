@@ -1,7 +1,7 @@
 <launch>
 
 <rosparam file="$(find Hexapod_clean_description)/launch/controller.yaml" command="load"/>
-<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="Hexapod_clean" args="joint_state_controller "/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="Hexapod_clean" args="Revolute 57_position_controller Revolute 58_position_controller Revolute 59_position_controller Revolute 60_position_controller Revolute 61_position_controller Revolute 62_position_controller Revolute 63_position_controller Revolute 64_position_controller Revolute 65_position_controller Revolute 66_position_controller Revolute 67_position_controller Revolute 68_position_controller Revolute 69_position_controller Revolute 70_position_controller Revolute 71_position_controller Revolute 72_position_controller Revolute 73_position_controller Revolute 74_position_controller joint_state_controller "/>
 <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
   <remap from="/joint_states" to="/Hexapod_clean/joint_states"/>
 </node>
