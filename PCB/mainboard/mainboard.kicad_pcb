@@ -9,11 +9,8 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-<<<<<<< HEAD
-=======
 		(4 "In1.Cu" signal)
 		(6 "In2.Cu" signal)
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -39,8 +36,6 @@
 		(45 "User.4" user)
 	)
 	(setup
-<<<<<<< HEAD
-=======
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
@@ -102,7 +97,6 @@
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -147,11 +141,6 @@
 		)
 	)
 	(net 0 "")
-<<<<<<< HEAD
-	(gr_line
-		(start 197.5 136.5)
-		(end 199.5 134.5)
-=======
 	(net 1 "unconnected-(VR2-SW-Pad2)_1")
 	(net 2 "GND")
 	(net 3 "unconnected-(AC2-INT1-Pad4)")
@@ -32872,15 +32861,11 @@
 	(gr_line
 		(start 199.5 122)
 		(end 199.5 103.5)
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-<<<<<<< HEAD
-		(uuid "0906a53d-189c-469d-85d0-55cf7c4a4770")
-=======
 		(uuid "04f6321c-c479-4ab5-ac4a-d566a8c2ff71")
 	)
 	(gr_line
@@ -32892,7 +32877,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "052b0df2-618b-494c-950d-6aa1529d36c9")
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 	)
 	(gr_line
 		(start 199.5 103.5)
@@ -32905,9 +32889,6 @@
 		(uuid "0cca609b-7070-42a6-a2b0-f23bee0ffbd6")
 	)
 	(gr_line
-<<<<<<< HEAD
-		(start 99.5 134.5)
-=======
 		(start 120.5 123)
 		(end 100.5 123)
 		(stroke
@@ -32919,29 +32900,13 @@
 	)
 	(gr_line
 		(start 99.5 122)
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(end 99.5 103.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-<<<<<<< HEAD
-		(uuid "16f3ebd7-4b1a-4cdf-8bae-8853894e1149")
-	)
-	(gr_circle
-		(center 194.5 105.57)
-		(end 196.25 105.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "230784d0-cd0a-4cec-8064-ad7b6f1b78c8")
-=======
 		(uuid "25946c49-94ed-4b73-ba83-6e0f63686e5d")
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 	)
 	(gr_line
 		(start 164.5 68.5)
@@ -32954,101 +32919,33 @@
 		(uuid "269e055a-c773-4e91-9cdb-3b2bf25e39e8")
 	)
 	(gr_line
-<<<<<<< HEAD
-		(start 199.5 134.5)
-		(end 199.5 103.5)
-=======
 		(start 100.5 123)
 		(end 99.5 122)
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-<<<<<<< HEAD
-		(uuid "2c8b4530-cee0-4aa4-8783-e3ba672bc47e")
-	)
-	(gr_circle
-		(center 104.5 105.57)
-		(end 102.75 105.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "4825fb16-62e8-4f05-9bee-0f47af7d5b58")
-	)
-	(gr_circle
-		(center 172.5 131.5)
-		(end 172.5 133.25)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "712186c6-0fd9-49f0-9153-950eea9bef07")
-	)
-	(gr_circle
-		(center 136.57 73.5)
-		(end 136.5 71.75)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "84a29410-7451-4bbf-8a77-26d50b7ab843")
-	)
-	(gr_circle
-		(center 126.5 131.5)
-		(end 126.5 133.25)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "a67fa3a8-8e85-4fe0-9031-3ac03f45d424")
-	)
-	(gr_line
-		(start 197.5 136.5)
-		(end 101.5 136.5)
-=======
 		(uuid "3e0f940c-4921-40cf-ae24-453ad0087e70")
 	)
 	(gr_line
 		(start 120.5 123)
 		(end 121.5 124)
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-<<<<<<< HEAD
-		(uuid "cb9f23ea-aad8-46b1-85fb-9e8975006593")
-	)
-	(gr_line
-		(start 101.5 136.5)
-		(end 99.5 134.5)
-=======
 		(uuid "6cce892c-b23c-4a23-8ff2-41b89ead85d5")
 	)
 	(gr_line
 		(start 198.5 123)
 		(end 178.5 123)
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-<<<<<<< HEAD
-		(uuid "d561e01e-ee55-4e40-ae3d-905426837649")
-=======
 		(uuid "7f3efaab-bf60-4865-9e7f-3b0531840f90")
 	)
 	(gr_line
@@ -33110,7 +33007,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "da93f4e1-4e20-49bd-b703-c0065340a851")
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 	)
 	(gr_line
 		(start 134.5 68.5)
@@ -33122,18 +33018,6 @@
 		(layer "Edge.Cuts")
 		(uuid "e2e5b7d2-22dd-4b0a-a8ee-19b6aa05b497")
 	)
-<<<<<<< HEAD
-	(gr_circle
-		(center 162.43 73.5)
-		(end 162.5 71.75)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "ea129c28-e48d-40b4-a65b-b3b6fc18e670")
-=======
 	(gr_text "WS2812B"
 		(at 115.2 90.5 45)
 		(layer "F.SilkS")
@@ -55954,7 +55838,6 @@
 		(target_skew_min -0.1)
 		(tuning_mode "single")
 		(members "9478a10c-952d-494c-833d-12088f132d64")
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
 	)
 	(embedded_fonts no)
 )

@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 (kicad_symbol_lib
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 )
-=======
-(kicad_symbol_lib
-	(version 20241209)
-	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
-)
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952

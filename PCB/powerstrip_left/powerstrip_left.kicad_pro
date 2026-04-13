@@ -58,28 +58,7 @@
           "width": 0.0
         }
       ],
-<<<<<<< HEAD
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|137832800|60388800|5746dc95-a8a1-4c5f-ac45-1e66715e5f2c|e709aeca-2ca1-4126-a531-73101b08c000",
-          ""
-        ],
-        [
-          "courtyards_overlap|139408200|60388800|3f286e52-a256-4d99-9b96-877c1579bff2|e709aeca-2ca1-4126-a531-73101b08c000",
-          ""
-        ],
-        [
-          "courtyards_overlap|141077621|130690600|a5532114-45bc-4e70-aa70-91d87d5829d1|af74e71a-5e1e-479c-a2b4-e069d0020f38",
-          ""
-        ],
-        [
-          "courtyards_overlap|141077621|133205200|a5532114-45bc-4e70-aa70-91d87d5829d1|d670f58a-716d-4068-af3b-92236ac3f8a7",
-          ""
-        ]
-      ],
-=======
       "drc_exclusions": [],
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
       "meta": {
         "version": 2
       },
@@ -89,11 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-<<<<<<< HEAD
-        "courtyards_overlap": "error",
-=======
         "courtyards_overlap": "ignore",
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -113,11 +88,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-<<<<<<< HEAD
-        "lib_footprint_mismatch": "warning",
-=======
         "lib_footprint_mismatch": "ignore",
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -131,11 +102,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-<<<<<<< HEAD
-        "silk_overlap": "warning",
-=======
         "silk_overlap": "ignore",
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -172,11 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-<<<<<<< HEAD
-        "solder_mask_to_copper_clearance": 0.0,
-=======
         "solder_mask_to_copper_clearance": 0.005,
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -226,12 +189,8 @@
       "track_widths": [
         0.0,
         0.2,
-<<<<<<< HEAD
-        0.4
-=======
         0.4,
         0.8
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -547,11 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-<<<<<<< HEAD
-      "step": "powerstrip_left.step",
-=======
       "step": "../../../../../Downloads/powerstrip_left.step",
->>>>>>> 7204d024631a92f1eeee71486efcc9b5c7635952
       "svg": "",
       "vrml": ""
     },
